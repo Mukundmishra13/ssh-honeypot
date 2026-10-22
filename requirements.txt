@@ -1,0 +1,5 @@
+# SSH protocol implementation — handshake, key exchange, encryption.
+paramiko>=3.0.0
+
+# Charts for the visualization deliverable.
+matplotlib>=3.5.0

@@ -1,0 +1,8 @@
+# SSH private host key, generated on first run.
+# Never commit a private key, even one that guards nothing.
+host_key
+
+# Python bytecode
+__pycache__/
+*.pyc
+HOW_IT_WORKS.md 
